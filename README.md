@@ -19,5 +19,5 @@ If you need help with this project, please read the [Support document](.github/S
 
 ## License
 
-[MIT License](.github/LICENSE.md)
+[MIT License](LICENSE.md)
 
