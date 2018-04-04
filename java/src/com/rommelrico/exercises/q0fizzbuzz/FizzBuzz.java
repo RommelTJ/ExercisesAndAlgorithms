@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.fizzbuzz;
+package com.rommelrico.exercises.q0fizzbuzz;
 
 public class FizzBuzz {
     public static void main(String[] args) {
