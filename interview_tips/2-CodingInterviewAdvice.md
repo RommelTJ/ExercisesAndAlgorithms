@@ -83,3 +83,24 @@ loud. For example:
 * `The brute force approach is to test all possibilities, which is O(n^2).`
 * `The answer will contain n^2​​ items, so I must at least spend that amount of time.`
 
+## Get your thoughts down
+
+It's easy to trip over yourself. Focus on getting your thoughts down first and worry about the details at the end.
+
+Call a helper function and keep moving. If you can't immediately think of how to implement some part of your algorithm, 
+big or small, just skip over it. Write a call to a reasonably-named helper function, say "this will do X" and keep 
+going. If the helper function is trivial, you might even get away with never implementing it.
+
+Don't worry about syntax. Just breeze through it. Revert to English if you have to. Just say you'll get back to it.
+
+Leave yourself plenty of room. You may need to add code or notes in between lines later. Start at the top of the board 
+and leave a blank line between each line.
+
+Save off-by-one checking for the end. Don't worry about whether your for loop should have `<` or `<=`. Write a 
+checkmark to remind yourself to check it at the end. Just get the general algorithm down.
+
+Use descriptive variable names. This will take time, but it will prevent you from losing track of what your code is 
+doing. Use names_to_phone_numbers instead of nums. Imply the type in the name. Functions returning booleans should 
+start with `is_*`. Vars that hold a list should end with `s`. Choose standards that make sense to you and stick with 
+them.
+
