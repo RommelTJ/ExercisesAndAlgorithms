@@ -55,3 +55,31 @@ from other languages or other problems.
 Slow the eff down. Don't confidently blurt out an answer right away. If it's right you'll still have to explain it, 
 and if it's wrong you'll seem reckless. You don't win anything for speed and you're more likely to annoy your 
 interviewer by cutting her off or appearing to jump to conclusions.
+
+## Get unstuck
+
+Sometimes you'll get stuck. Relax. It doesn't mean you've failed. Keep in mind that the interviewer usually cares more 
+about your ability to cleverly poke the problem from a few different angles than your ability to stumble into the 
+correct answer. When hope seems lost, keep poking.
+
+Draw pictures. Don't waste time trying to think in your head—think on the board. Draw a couple different test inputs. 
+Draw how you would get the desired output by hand. Then think about translating your approach into code.
+
+Solve a simpler version of the problem. Not sure how to find the 4th largest item in the set? Think about how to find 
+the 1st largest item and see if you can adapt that approach.
+
+Write a naive, inefficient solution and optimize it later. Use brute force. Do whatever it takes to get some kind of 
+answer.
+
+Think out loud more. Say what you know. Say what you thought might work and why it won't work. You might realize it 
+actually does work, or a modified version does. Or you might get a hint.
+
+Wait for a hint. Don't stare at your interviewer expectantly, but do take a brief second to "think"—your interviewer 
+might have already decided to give you a hint and is just waiting to avoid interrupting.
+
+Think about the bounds on space and runtime. If you're not sure if you can optimize your solution, think about it out 
+loud. For example:
+* `I have to at least look at all of the items, so I can't do better than O(n).`
+* `The brute force approach is to test all possibilities, which is O(n^2).`
+* `The answer will contain n^2​​ items, so I must at least spend that amount of time.`
+
