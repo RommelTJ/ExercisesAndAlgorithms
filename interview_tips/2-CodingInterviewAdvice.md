@@ -104,3 +104,16 @@ doing. Use names_to_phone_numbers instead of nums. Imply the type in the name. F
 start with `is_*`. Vars that hold a list should end with `s`. Choose standards that make sense to you and stick with 
 them.
 
+## Clean up when you're done
+
+Walk through your solution by hand, out loud, with an example input. Actually write down what values the variables 
+hold as the program is running—you don't win any brownie points for doing it in your head. This'll help you find bugs 
+and clear up confusion your interviewer might have about what you're doing.
+
+Look for off-by-one errors. Should your for loop use a `<=` instead of a `<`?
+
+Test edge cases. These might include empty sets, single-item sets, or negative numbers. Bonus: mention unit tests!
+
+Don't be boring. Some interviewers won't care about these cleanup steps. If you're unsure, say something like, "Then 
+I'd usually check the code against some edge cases—should we do that next?"
+
