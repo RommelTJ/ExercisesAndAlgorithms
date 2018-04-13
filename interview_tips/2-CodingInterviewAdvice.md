@@ -117,3 +117,9 @@ Test edge cases. These might include empty sets, single-item sets, or negative n
 Don't be boring. Some interviewers won't care about these cleanup steps. If you're unsure, say something like, "Then 
 I'd usually check the code against some edge cases—should we do that next?"
 
+##  Practice
+   
+In the end, there's no substitute for running practice questions.
+
+Actually write code with pen and paper. Be honest with yourself. It'll probably feel awkward at first. Good. You want 
+to get over that awkwardness now so you're not fumbling when it's time for the real interview.
