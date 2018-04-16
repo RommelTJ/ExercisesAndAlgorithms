@@ -60,3 +60,10 @@ how fast your algorithm could possibly be:
     I can beat that time."
     * "The answer will contain n^2​​ items, so I must at least spend that amount of time."
 
+## When All Else Fails
+
+1) Make it clear where you are. State what you know, what you’re trying to do, and highlight the gap between the two. 
+The clearer you are in expressing exactly where you’re stuck, the easier it is for your interviewer to help you.
+
+2) Pay attention to your interviewer. If she asks a question about something you just said, there’s probably a hint 
+buried in there. Don’t worry about losing your train of thought—drop what you’re doing and dig into her question.
