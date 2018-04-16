@@ -67,3 +67,14 @@ The clearer you are in expressing exactly where you’re stuck, the easier it is
 
 2) Pay attention to your interviewer. If she asks a question about something you just said, there’s probably a hint 
 buried in there. Don’t worry about losing your train of thought—drop what you’re doing and dig into her question.
+
+## Relax. You’re supposed to get stuck.
+
+Interviewers choose hard problems on purpose. They want to see how you poke at a problem you don’t immediately know 
+how to solve.
+
+Seriously. If you don’t get stuck and just breeze through the problem, your interviewer’s evaluation might just say 
+"Didn’t get a good read on candidate's problem-solving process—maybe she'd already seen this interview question before?"
+
+On the other hand, if you do get stuck, use one of these tricks to get unstuck, and communicate clearly with your 
+interviewer throughout... that’s how you get an evaluation like, "Great problem-solving skills. Hire."
