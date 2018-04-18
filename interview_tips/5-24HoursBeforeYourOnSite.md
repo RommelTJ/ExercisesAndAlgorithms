@@ -24,3 +24,10 @@ skill, try these sleepytime guidelines:
 The most important thing is to not stay up late practicing new or difficult problems. That'll only put your brain on a 
 train to Los Anxiousness. 
 
+## Practice stuff you rock at
+
+To cultivate your confidence, practice questions that you can already solve handily. Sure, feel free to start the day 
+with a new problem, but by the afternoon you should be building momentum with the questions you know best.
+
+Giving yourself a few wins like this helps your brain simulate a stellar session at the whiteboard. You'll go to sleep 
+dreaming of data structures, and you'll wake up with a self-esteem stimulus that makes you stand out in your interview.
