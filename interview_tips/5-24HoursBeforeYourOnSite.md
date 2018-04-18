@@ -62,3 +62,22 @@ go back and double-check later.
 3. Debug your code. Walk through your code with sample input, look for off-by-one-errors and other bugs.
 
 This high-level, "What's my problem solving process" is great to keep thinking about the morning of your interview. 
+
+## Precompute your morning
+
+Decision fatigue is real. It's why successful people like Mark Zuckerberg and Barack Obama always wear the same 
+thing — to minimize the number of decisions they make each morning. Luckily, it's easy to avoid decision fatigue once 
+you're aware of it!
+
+Plan the boring stuff ahead of time. Here are a few suggestions to get you started:
+* Pack your bag. Include a snack and water bottle.
+* Lay out some nice clothes. Dress a tiny step above what others in the office are wearing (usually they'll be sporting 
+jeans and a t-shirt).
+* Plan your breakfast. For your brain's sake, try to include eggs, berries, and avocado.
+* Choose your route to the office. Expect traffic. Scope out the parking situation if you're driving.
+* Tarantino your morning. Work backwards from about 30 minutes before your interview, and figure out what time you need 
+to wake up.
+* Set an alarm (or ten). Remember that you want time in the morning to chill, eat a leisurely breakfast, and sip on a 
+cup of coffee.
+* Brainstorm a pump-up routine. Come up with a few things to get you stoked.
+
