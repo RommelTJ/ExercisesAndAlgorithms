@@ -49,3 +49,16 @@ is lively. You leave the building smiling and feeling great about the whole expe
 
 Visualizing a successful day will build your confidence. You're training your brain to expect success and feel more 
 comfortable during your interview.
+
+## Walk through your problem solving process
+
+Reinforcing problem-solving patterns goes a longer way than practicing new problems in the hours leading up to your 
+interview. Notice how our coding interview tips article gives you a handy process for solving algorithmic problems:
+
+1. Brainstorm an algorithm. Draw out sample inputs and play around with them while talking and thinking out loud. Don't 
+start writing code until you and your interviewer feel good about your algorithm.
+2. Barf out your algorithm in code. Focus on getting it all down first, and jot down notes next to the things you wanna 
+go back and double-check later.
+3. Debug your code. Walk through your code with sample input, look for off-by-one-errors and other bugs.
+
+This high-level, "What's my problem solving process" is great to keep thinking about the morning of your interview. 
