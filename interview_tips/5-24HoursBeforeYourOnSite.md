@@ -31,3 +31,21 @@ with a new problem, but by the afternoon you should be building momentum with th
 
 Giving yourself a few wins like this helps your brain simulate a stellar session at the whiteboard. You'll go to sleep 
 dreaming of data structures, and you'll wake up with a self-esteem stimulus that makes you stand out in your interview.
+
+## Imagine your best day
+
+Write out the ideal version of your day. It's a positive visualization exercise. This might sound like some hippie 
+shit, but it's something athletes and entrepreneurs do all the time.
+
+The fun part is that there isn't a correct way to do this. It's up to you! If you're not sure where to start, here's 
+some inspiration:
+* Greet your interviewer(s). Play through some small talk. Maybe you make a little joke they find funny.
+* Crush your first question. The first question comes your way, and you write out the answer deftly. Your interviewer's 
+face looks impressed.
+* Overcome a tough question. You get to a trickier part of a problem. You feel some adrenaline, but you keep calm. You 
+ask a few clarifying questions and carry on to a solution.
+* End the day on a high note. Your last interview of the day involves talking to a director or VP, and the conversation 
+is lively. You leave the building smiling and feeling great about the whole experience.
+
+Visualizing a successful day will build your confidence. You're training your brain to expect success and feel more 
+comfortable during your interview.
