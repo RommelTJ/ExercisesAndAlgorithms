@@ -81,3 +81,15 @@ to wake up.
 cup of coffee.
 * Brainstorm a pump-up routine. Come up with a few things to get you stoked.
 
+## Get pumped
+
+The morning of your interview, you wanna get energized! The right pump-up routine should make you excited, confident, 
+and ready to tackle your interview head-on.
+
+Get your body moving. Do sun salutations and a few jumping jacks. Light exercise increases the blood flow to your brain 
+and helps clear your mind.
+
+Power pose and read your positive visualization. It might feel strange at first, but it works! You'll prime yourself to 
+feel more confident heading into your interview.
+
+Listen to pump-up music. 
