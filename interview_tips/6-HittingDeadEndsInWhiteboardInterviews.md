@@ -1,0 +1,29 @@
+# Why You're Hitting Dead Ends In Whiteboard Interviews
+
+## Listening vs. holding your train of thought
+
+Finally! After a while of shooting in the dark and frantically fiddling with sample inputs on the whiteboard, you've 
+came up with an algorithm for solving the coding question your interviewer gave you.
+
+Whew. Such a relief to have a clear path forward. To not be flailing anymore.
+
+Now you're cruising, getting ready to code up your solution.
+
+When suddenly, your interviewer throws you a curve ball.
+
+"What if we thought of the problem this way?"
+
+You feel a tension we've all felt during the coding interview:
+
+"Try to listen to what they're saying...but don't lose your train of thought...ugh, I can't do both!"
+
+This is a make-or-break moment in the coding interview. And so many people get it wrong.
+
+Most candidates end up only half understanding what their interviewer is saying. Because they're only half listening. 
+Because they're desperately clinging to their train of thought.
+
+And it's easy to see why. For many of us, completely losing track of what we're doing is one of our biggest coding 
+interview fears. So we devote half of our mental energy to clinging to our train of thought.
+
+To understand why that's so wrong, we need to understand the difference between what we see during the coding interview 
+and what our interviewer sees.
