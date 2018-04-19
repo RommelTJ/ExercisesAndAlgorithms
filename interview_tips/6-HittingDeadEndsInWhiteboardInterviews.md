@@ -56,3 +56,26 @@ And your seemingly great path? There's probably a dead end just ahead that you h
 
 Or it could just be a much longer route to a solution than you think it is. That actually happens pretty often—there's 
 an answer there, but it's more complicated than you think. 
+
+## Hitting a dead end is okay. Failing to listen is not.
+
+Your interviewer probably won't fault you for going down the wrong path at first. They've seen really smart engineers 
+do the same thing. They understand it's because you only have a partial view of the maze.
+
+They might have let you go down the wrong path for a bit to see if you could keep your thinking organized without help. 
+But now they want to rush you through the part where you discover the dead end and double back. Not because they don't 
+believe you can manage it yourself. But because they want to make sure you have enough time to finish the question.
+
+But here's something they will fault you for: failing to listen to them. Nobody wants to work with an engineer who 
+doesn't listen.
+
+So when you find yourself in that crucial coding interview moment, when you're torn between holding your train of 
+thought and considering the idea your interviewer is suggesting...remember this:
+
+Listening to your interviewer is the most important thing.
+
+Take what they're saying and run with it. Think of the next steps that follow from what they're saying.
+
+Even if it means completely leaving behind the path you were on. Trust the route your interviewer is pointing you down.
+
+Because they can see the whole maze.
