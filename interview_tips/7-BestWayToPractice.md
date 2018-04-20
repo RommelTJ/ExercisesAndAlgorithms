@@ -37,3 +37,14 @@ including debugging your code at the end.
 
 If you’re just starting out and the timer adds too much stress, put this technique on the shelf. Add it in later as you 
 start to get more comfortable with solving problems.
+
+## Think out loud
+
+Like writing code on a whiteboard, this is an acquired skill. It feels awkward at first. But your interviewer will 
+expect you to think out loud during the interview, so you gotta power through that awkwardness.
+
+A good trick to get used to talking out loud: Grab a buddy. Another engineer would be great, but you can also do this 
+with a non-technical friend.
+
+Have your buddy sit-in while you talk through a problem. Better yet—try loading up one of our questions on an iPad and 
+giving that to your buddy to use as a script!
