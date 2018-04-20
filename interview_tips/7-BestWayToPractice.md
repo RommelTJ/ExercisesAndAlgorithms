@@ -48,3 +48,11 @@ with a non-technical friend.
 
 Have your buddy sit-in while you talk through a problem. Better yet—try loading up one of our questions on an iPad and 
 giving that to your buddy to use as a script!
+
+## Set aside a specific time of day to practice
+
+Give yourself an hour each day to practice. Commit to practicing around the same time, like after you eat dinner. This 
+helps you form a stickier habit of practicing.
+
+Prefer small, daily doses of practice to doing big cram sessions every once in a while. Distributing your practice 
+sessions helps you learn more with less time and effort in the long run.
