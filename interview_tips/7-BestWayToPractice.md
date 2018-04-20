@@ -30,3 +30,10 @@ whiteboard. A few helpful tips for handwriting code:
 * Leave blank space between each line of code. This makes it much easier to add things later.
 * Slow down. Take an extra second to think of descriptive variable names. You might be tempted to move faster by using short variable names, but that actually ends up costing more time. It’ll make your code harder to debug!
 
+## Set a timer
+
+Get a feel for the time pressure of an actual interview. You should be able to finish a problem in 30–45 minutes, 
+including debugging your code at the end.
+
+If you’re just starting out and the timer adds too much stress, put this technique on the shelf. Add it in later as you 
+start to get more comfortable with solving problems.
