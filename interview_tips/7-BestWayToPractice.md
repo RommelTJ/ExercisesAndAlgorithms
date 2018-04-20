@@ -17,3 +17,16 @@ these notes to our tips for getting unstuck.
 After each full practice session, read through your entire running list. Read it at the beginning of each practice 
 session too. This’ll add a nice layer of rigor to your practice, so you’re really internalizing the lessons you're 
 learning.
+
+## Use an actual whiteboard
+
+Coding on a whiteboard is awkward at first. You have to write out every single character, and you can't easily insert 
+or delete blocks of code.
+
+Use your practice sessions to iron out that awkwardness. Run a few problems on a piece of paper or, if you can, a real 
+whiteboard. A few helpful tips for handwriting code:
+
+* Start in the top-left corner. You want all the room you can get.
+* Leave blank space between each line of code. This makes it much easier to add things later.
+* Slow down. Take an extra second to think of descriptive variable names. You might be tempted to move faster by using short variable names, but that actually ends up costing more time. It’ll make your code harder to debug!
+
