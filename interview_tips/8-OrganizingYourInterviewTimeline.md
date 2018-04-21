@@ -88,3 +88,18 @@ You’ll be in your prime by the time you interview with your top choices, so lo
 
 Jot down your impressions after each interview. You'll be surprised how much different companies can start to 
 melt together after a couple weeks of interviewing.
+
+## Avoid Burnout
+
+If you're casting a wide net and allowing several weeks for your job search, you need to be careful about 
+burnout. The interview process is a marathon, not a sprint.
+
+Space out your onsites. Onsites are draining. Try to keep at least a two day buffer between them — one day to 
+recover after your last onsite, and one day to get ready for the next.
+
+Don’t travel too much. You can quickly burn yourself out bopping across the country. When you have to travel 
+for an interview, try to wait a few days before you travel again.
+
+Batch interviews that are in cities you have to fly to. Try to avoid flying to the same city multiple times — 
+though sometimes traveling to the same place twice is better than trying to cram three or more onsites into a 
+short span of time.
