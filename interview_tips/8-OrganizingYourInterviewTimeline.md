@@ -72,3 +72,19 @@ starting a new job can be a rare window of low stress and low responsibility in 
 Many companies are happy to accommodate this by setting your start date a few weeks after your signing date — 
 just ask. Many offers include a signing bonus, which could help offset the cost of this extra time without a 
 salary. But again, this'll depend on your means — not everyone can afford to take this extra time off.
+
+## Cast A Wide Net
+
+Interview with multiple companies. Exactly how many companies depends on your situation, but the point is to 
+avoid putting all your eggs in one basket. You want multiple offers by the end, so you can negotiate the best 
+offer possible.
+
+A good rule of thumb: send out applications to more places than you’re currently planning. If you end up 
+getting too many interviews... well that’s a good problem to have! You can always "pause" or simply cancel the 
+interview process with some companies.
+
+Schedule your favorite companies last. Get interview practice with the places you are not as excited about. 
+You’ll be in your prime by the time you interview with your top choices, so long as you don’t burn out.
+
+Jot down your impressions after each interview. You'll be surprised how much different companies can start to 
+melt together after a couple weeks of interviewing.
