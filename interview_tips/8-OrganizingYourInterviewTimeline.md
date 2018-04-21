@@ -44,3 +44,31 @@ offer would come in too early and explode before the signing date you chose?
 No problem. Most companies are happy to "pause" or slow down your interview process so the offer comes in 
 later. This way both parties can get what they want: the company can follow their usual "offers explode after 
 X days" policy, and you can have the offer still open on your pre-planned signing date.
+
+## How far out should my signing date be?
+
+It depends. At a high level, you should allow as much time as you can afford to. Most people underestimate how 
+long their job search is going to take. And when you end up in a time crunch at the end, it means less time at 
+the negotiation stage. So allowing an extra week for your job search could literally mean earning tens of 
+thousands of dollars more in your final salary.
+
+If you have a current job or are a full-time student, try to allow more time by starting the process earlier.
+
+Of course, some of us will be in situations where we really need to start our new job as soon as possible. 
+That's fine. Do what works for you.
+
+Keep in mind that you're shooting for having enough time to practice and get through the whole interview 
+process with multiple companies if you can. Think through how much time you can devote to each of these steps:
+
+* Studying (1–8 weeks)
+* Phone screens (1–3 weeks)
+* Onsites (1–3 weeks)
+* Negotiation (1–2 weeks)
+
+One more consideration: if you have the means, consider leaving yourself some time for a vacation before 
+starting your new job. Job hunting is stressful. And that window of time between signing a new offer and 
+starting a new job can be a rare window of low stress and low responsibility in your life.
+
+Many companies are happy to accommodate this by setting your start date a few weeks after your signing date — 
+just ask. Many offers include a signing bonus, which could help offset the cost of this extra time without a 
+salary. But again, this'll depend on your means — not everyone can afford to take this extra time off.
