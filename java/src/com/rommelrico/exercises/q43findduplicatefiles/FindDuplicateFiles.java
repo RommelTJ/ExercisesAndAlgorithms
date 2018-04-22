@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.math.BigInteger;
+import java.nio.file.FileSystems;
 import java.nio.file.Path;
 import java.security.DigestInputStream;
 import java.security.MessageDigest;
@@ -112,6 +113,10 @@ public class FindDuplicateFiles {
     }
 
     public static void main(String[] args) {
-        // TODO: Implement me.
+        // Starting directory
+        Path myPath = FileSystems.getDefault().getPath("."); // Working directory
+        List<FilePaths> filePathsList = findDuplicateFiles(myPath); // Duplicate files
+        System.out.println(String.format("Duplicate files in path: %s: ", myPath));
+        System.out.println(filePathsList.toString());
     }
 }
