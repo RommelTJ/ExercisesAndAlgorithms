@@ -16,6 +16,16 @@ import java.util.Map;
 import java.util.Stack;
 import java.util.ArrayList;
 
+/**
+ * Solution
+ *
+ * We walk through our whole file system iteratively. As we go, we take a "fingerprint" of each file in constant time
+ * by hashing the first few, middle few, and last few bytes. We store each file's fingerprint in a hash map as we go.
+ *
+ * If a given file's fingerprint is already in our hash map, we assume we have a duplicate. In that case, we assume the
+ * file edited most recently is the one created by our friend.
+ * 
+ */
 public class FindDuplicateFiles {
     private static final int SAMPLE_SIZE = 4000;
 
