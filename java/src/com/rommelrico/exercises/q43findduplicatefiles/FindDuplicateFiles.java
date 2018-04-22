@@ -34,6 +34,18 @@ import java.util.ArrayList;
  * we probably should), then in the worst case all the files are the same and we have to read their full contents to
  * confirm this, giving us a runtime that's order of the total size of our files on disc.
  *
+ * What We Learned
+ *
+ * The main insight was to save time and space by "fingerprinting" each file.
+ *
+ * This question is a good example of a "messy" interview problem. Instead of one optimal solution, there's a big knot
+ * of optimizations and trade-offs. For example, our hashing-based approach wins us a faster runtime, but it can give
+ * us false positives.
+ *
+ * For messy problems like this, focus on clearly explaining to your interviewer what the trade-offs are for each
+ * decision you make. The actual choices you make probably don't matter that much, as long as you show a strong ability
+ * to understand and compare your options.
+ *
  */
 public class FindDuplicateFiles {
     private static final int SAMPLE_SIZE = 4000;
