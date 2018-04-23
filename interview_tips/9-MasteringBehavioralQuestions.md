@@ -1,6 +1,6 @@
 # Mastering Behavioral Questions
 
-## “Show, don’t tell”
+## "Show, don’t tell"
 
 You’ve probably heard this advice before. Maybe it was your 10th grade English teacher. Maybe it was career 
 services in college. "Remember: show, don’t tell."
@@ -84,3 +84,21 @@ But a lightly detailed story is better suited to show this strength:
 When you respond with a story, you can refer to what other people have said about your best qualities. In this 
 case, a ten-year tech veteran said you made a project feel less awful. That kind of praise is a lot more 
 credible when it comes from someone else.
+
+## Practice
+
+Remember these specific tricks for showing rather than telling:
+
+    Use specific, memorable details. "Social network for cats" instead of "a personal project."
+    Tell a story from your life. "I was trying to solve a tricky bug…" instead of "I value open source 
+    contributions."
+    Use someone else’s voice. "’You really made things feel sane‘" instead of "I work well with others."
+
+Try these tactics out on the questions below. Keep in mind, sometimes it’s easiest to start with a "tell" 
+response, then spruce it up to "show."
+
+    Tell me your biggest weakness as an engineer.
+    Describe a tricky bug you’ve encountered.
+    What’s the biggest project you’ve shipped?
+    What’s your favorite programming language? Why?
+    How do you overcome interpersonal conflicts with coworkers?
