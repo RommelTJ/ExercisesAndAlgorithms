@@ -64,3 +64,23 @@ blogging, instead of just telling it.
 
 Anyone can look up a company’s core values and repeat them during an interview. It’s more meaningful to tell a 
 story from your life that shows how those values benefited you or taught you something.
+
+## Use someone else's voice
+   
+This one’s a neat trick. Consider one more standard behavioral question: "What’s your biggest strength?"
+   
+You might tell the interviewer:
+   
+    I work well with others. Even under tough circumstances, I make sure my coworkers feel supported.
+   
+But a lightly detailed story is better suited to show this strength:
+   
+    I have a coworker, Ana, who’s been an engineer for almost a decade. We worked together on this really tough, 
+    messy project.
+    
+    Towards the end, she told me, "For such a hellish project, you really made things feel sane." I think this 
+    is my biggest strength — I work well with others, even under tough circumstances.
+    
+When you respond with a story, you can refer to what other people have said about your best qualities. In this 
+case, a ten-year tech veteran said you made a project feel less awful. That kind of praise is a lot more 
+credible when it comes from someone else.
