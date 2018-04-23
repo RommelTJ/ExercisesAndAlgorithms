@@ -38,3 +38,29 @@ company on Hacker News.
 
 So don’t skimp on the details. Look out for opportunities to use specifics, especially if they’re at all quirky, 
 funny, surprising, or otherwise memorable.
+
+## Tell a story from your life
+
+Take another common question: "Why do you want to work here?"
+
+People tend to just cross-reference their values with those of the company or team they're interviewing with:
+
+    I’m really interested in technical blogging and open source. So I like that your company has some 
+    open-source work and contributes back to the community.
+   
+That’s a fine response. But to really wow your interviewer, try adding a specific story around those values:
+   
+    A couple years ago, when I was still new to programming, I was working on this tricky bug. I found a post on 
+    a company blog where an engineer explained how her team solved the issue. She included a code snippet she’d 
+    open-sourced. I appreciated that she took the time to write about her team’s experience and share their 
+    solution. It helped me!
+    
+    That’s how I first started getting into open source. I really wanna work with more engineers like that — who 
+    write about their work and try to help others in the community. So I was excited to see all the stuff your 
+    team shares on your blog and on the company’s Github profile.
+   
+The second response just sounds more genuine. It shows a personal connection to open source and technical 
+blogging, instead of just telling it.
+
+Anyone can look up a company’s core values and repeat them during an interview. It’s more meaningful to tell a 
+story from your life that shows how those values benefited you or taught you something.
