@@ -210,3 +210,31 @@ a laptop or tablet—the progressive hints and gotchas allow your friend to use 
 
 And of course, real interviews are very effective as "mock interviews" :) Reach out to some more companies and 
 try to get some extra interviews.
+
+
+## Onsite interviews
+
+### What should I do the day before an onsite interview?
+
+There's a lot to say about this, and getting yourself into the best possible headspace the day before a big 
+onsite can make a huge difference! Read our full guide on what to do in the 24 hours before a big onsite interview.
+
+### My whiteboard always gets really messy :/
+
+This is pretty common, and it can actually be a big problem. A messy whiteboard makes it more likely that you or 
+your interviewer will get totally lost trying to understand your code, especially when you come back to it a few 
+minutes later to walk through it with a sample input. Here are some tips:
+
+Start in the very top-left corner of the board. Most people's instinct is to leave some margin on the left and 
+top of the board, so their code comes out "centered." But this just ends up leaving you with less space. And you 
+want all the space you can get.
+
+Leave blank space between each line as you write your code. This makes it much easier to add an extra line later.
+
+Take an extra second to carefully name each variable. Don't rush this part! It might seem like this'll slow you 
+down, but using more descriptive variable names actually ends up saving you time in the end. Few reasons why:
+
+1. You're less likely to confuse your interviewer, which means you don't have to waste time explaining things.
+2. You're less likely to confuse yourself, especially later on when you go back and walk through your code with 
+a sample input to see if it works.
+
