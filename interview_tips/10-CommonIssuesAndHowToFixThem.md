@@ -67,3 +67,84 @@ This feeling is very common. The interview process makes us doubt ourselves. It 
 This is called impostor syndrome, and it can be fixed.
 
 
+## The rest of the job search process
+
+### How do I get interviews?
+
+Probably the easiest way to get interviews is to use one of these services that bring companies to you:
+
+* Hired
+* Triplebyte
+* Underdog.io
+
+These services are really selective though, so not everyone gets in.
+
+Then there are a bunch of hip job board sites. These make it super easy to cast a wide net — just pick a bunch 
+of companies that sound interesting and apply. They also let you do stuff like set up email alerts for jobs that 
+might interest you.
+
+* AngelList Jobs
+* Whitetruffle
+* Stack Overflow Jobs
+
+For the companies you already have your eyes on, try to get a referral from someone inside the company. This is 
+doubly important for the big names like Google, Facebook, Amazon, Microsoft, etc. Big companies weigh referred 
+applicants more heavily.
+
+Search your LinkedIn and your Facebook to see if you have a friend who can refer you. Ask your family members if 
+they have anyone in their network. If you went to college, ask your school's alumni services to find an alum who 
+can refer you.
+
+### But I don't know the latest hip new framework or language.
+
+Here's a trick to getting interviews for jobs that require knowledge of a fancy new language or framework: 
+ignore the job description and apply anyways.
+
+One month after Apple announced their new programming language Swift, there were job listings that asked for 
+a minimum of three years experience with Swift. Which was impossible.
+
+A lot of description text is just boilerplate. Don’t let it keep you from applying.
+
+The people putting job descriptions together often don’t know what all the specific technologies mean. They tend 
+to pepper them with the latest buzzwords. It happens in every industry.
+
+Many of these places will put good faith in your engineering skills. They'll trust you to learn whatever 
+languages or frameworks they use.
+
+One more tip: Don’t apologize for not knowing the hip new thing. It reveals that you think you're 
+underqualified, which biases your interviewers towards thinking you're underqualified. So focus on sounding 
+interested rather than apologetic. "I haven't had a chance to work with Rust yet, but I've heard some cool stuff 
+about it!"
+
+### How long should I allow for my job search?
+
+Short answer: probably longer than you think.
+
+Long answer: It depends.
+
+### I got an offer but it expires soon! What do I do?
+
+The best way to deal with exploding offers is to avoid them altogether by carefully structuring your coding 
+interview timeline.
+
+That said, once a company has given you an exploding offer, you have two options:
+1. Just work within the exploding offer's timeline. In other words, do nothing.
+2. Ask for an extension.
+
+You're likely to have better luck asking for an extension if you give a specific date you want to extend to. 
+From the company's perspective, they mostly just want to have some date they can trust they'll have an answer 
+by, so they can plan the rest of their hiring process.
+
+### What about behavioral questions? How do I prepare for those?
+
+Behavioral questions or "soft questions" are an important part of the interview. Your interviewer might ask you 
+something like:
+
+* "What's the biggest project you've shipped?"
+* "What's your favorite programming language? Why?"
+* "How do you overcome interpersonal conflicts with coworkers?"
+* Or just an open-ended, "Tell me about yourself."
+
+Nailing these questions can be a big differentiator. If you wanna wow your interviewer, check out our article 
+on telling stories for behavioral questions.
+
