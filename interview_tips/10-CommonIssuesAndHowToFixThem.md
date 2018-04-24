@@ -148,3 +148,65 @@ something like:
 Nailing these questions can be a big differentiator. If you wanna wow your interviewer, check out our article 
 on telling stories for behavioral questions.
 
+
+## Practicing
+
+### I know I should practice, but I have trouble finding the time.
+
+For most of us, saying, "I should spend a few hours practicing for coding interviews each week" just doesn't 
+work. Whenever there's a spare hour, it's suddenly really important to send some emails. Or do laundry. Or do 
+some other "productive" bit of procrastination.
+
+The fix is to pick a specific, regular time for your interview practice. Block it off and stick to it.
+
+An hour a day, or a few hours over the weekend. Just pick something you can actually commit to.
+
+Open up your calendar and do it right now.
+
+Couple more tips:
+
+* Try going to a cafe or library. The ritual of going to a new place tells your mind, "Okay, we're going to a 
+specific place to do a specific thing now."
+* Grab a pen and paper to write your code on. This is good practice for coding on a whiteboard, but it also 
+helps you focus in on the task at hand.
+* If you're using our course to practice, consider using the browser on your tablet instead of your laptop — 
+again, it's less distracting.
+* Leave your phone at home, or put it in airplane mode while you're practicing.
+
+### How should I practice?
+
+Not all programming interview practice is made equal. There are a lot of things you can do to make sure you're 
+getting the maximum possible benefit out of your practice sessions. Check out our guide to getting the most out 
+of your coding interview practice.
+
+### How long should I spend on each each practice problem?
+
+In general, a coding interview is about 45 minutes of problem solving. Sometimes you'll get a few short 
+technical questions, but usually you'll only dig into one complex algorithmic coding interview question 
+(like the ones in our course).
+
+So, 45 minutes per question is a good rule of thumb. But don’t worry too much if you’re taking longer to 
+finish our practice questions — you’ll get faster with time. Stressing about the clock usually does more harm 
+than good.
+
+### Should I do mock interviews? How?
+
+Yes! There are a few great websites that offer mock interviews as a service. Check out:
+
+* Interviewing.io (free)
+* Pramp (free)
+
+Or you can grab a buddy and organize some mock interviews yourselves.
+
+For phone interview practice, do it over the computer. Use a shared coding environment tool like CoderPad, and 
+actually talk to each other over the phone or through Skype (great opportunity to test that your laptop's 
+microphone works!).
+
+For onsite interview practice, whip out some paper and pencils or, better yet, actually get on your feet and 
+write stuff on a whiteboard.
+
+You can even run a mock interview with a nontechnical friend! Try loading up one of our practice questions on 
+a laptop or tablet—the progressive hints and gotchas allow your friend to use the page like a script.
+
+And of course, real interviews are very effective as "mock interviews" :) Reach out to some more companies and 
+try to get some extra interviews.
