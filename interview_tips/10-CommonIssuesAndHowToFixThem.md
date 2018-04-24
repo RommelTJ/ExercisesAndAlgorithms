@@ -238,3 +238,27 @@ down, but using more descriptive variable names actually ends up saving you time
 2. You're less likely to confuse yourself, especially later on when you go back and walk through your code with 
 a sample input to see if it works.
 
+
+## Miscellaneous
+
+### What do I do if I get rejected?
+
+Rejection happens. It’s an ugly reality of the interview process. If you can afford to, take a brief break from 
+your studying so you can come back fresh.
+
+The good news: You’re better at interviewing now. Sure, running practice questions is good preparation, but 
+actually getting out there and failing some interviews is great preparation. Nothing approximates real 
+interviews quite like other real interviews!
+
+Reach out to the company and ask for feedback. Some companies can't do this for legal reasons, but it never 
+hurts to ask.
+
+Keep in mind that rejection can happen for any number of reasons. There's definitely an element of randomness. 
+A lot of Google engineers feel there's only a 50-50 chance they’d get an offer if they went through the interview 
+process again.
+
+Sometimes company priorities change, and they decide they need to slow down hiring. Sometimes you just get 
+unlucky and get the interviewers who like to give low ratings.
+
+There's lots you can do to prepare, but there's also lots that you can't control. The best you can do is keep 
+showing up and slowly getting better!
