@@ -1,7 +1,32 @@
 package com.rommelrico.exercises.q24linkedlistcyclechecker;
 
-import java.util.LinkedList;
-
+/**
+ * Solution
+ *
+ * We keep two pointers to nodes (we'll call these “runners”), both starting at the first node. Every time slowRunner
+ * moves one node ahead, fastRunner moves two nodes ahead.
+ *
+ * If the linked list has a cycle, fastRunner will "lap" (catch up with) slowRunner, and they will momentarily equal
+ * each other.
+ *
+ * If the list does not have a cycle, fastRunner will reach the end.
+ *
+ * Complexity
+ *
+ * O(n) time and O(1) space.
+ *
+ * What We Learned
+ *
+ * Some people have trouble coming up with the "two runners" approach. That's expected — it's somewhat of a blind
+ * insight. Even great candidates might need a few hints to get all the way there. And that's fine.
+ *
+ * Remember that the coding interview is a dialogue, and sometimes your interviewer expects she'll have to offer some
+ * hints along the way.
+ *
+ * One of the most impressive things you can do as a candidate is listen to a hint, fully understand it, and take it
+ * to its next logical step.
+ *
+ */
 public class LinkedListCycleChecker {
 
     public static boolean containsCycle(LinkedListNode firstNode) {
