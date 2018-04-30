@@ -184,4 +184,47 @@ In general we'd say this is O(n) runtime and the "worst case" part would be impl
 say this is worst case O(n) and best case O(1) runtime. For some algorithms we can also make rigorous statements about 
 the "average case" runtime.
 
- 
+##  Space complexity: the final frontier
+   
+Sometimes we want to optimize for using less memory instead of (or in addition to) using less time. Talking about 
+memory cost (or "space complexity") is very similar to talking about time cost. We simply look at the total size 
+(relative to the size of the input) of any new variables we're allocating.
+
+This method takes O(1) space (we use a fixed number of variables):
+```
+public static void sayHiNTimes(int n) {
+   for (int i = 0; i < n; i++) {
+       System.out.println("hi");
+   }
+}
+```
+   
+This method takes O(n) space (the size of hiArray scales with the size of the input):
+```
+public static String[] arrayOfHiNTimes(int n) {
+   String[] hiArray = new String[n];
+   for (int i = 0; i < n; i++) {
+       hiArray[i] = "hi";
+   }
+   return hiArray;
+}
+```
+   
+Usually when we talk about space complexity, we're talking about additional space, so we don't include space taken up 
+by the inputs. For example, this method takes constant space even though the input has n items:
+
+```
+public static int getLargestItem(int[] items) {
+   int largest = Integer.MIN_VALUE;
+   for (int item : items) {
+       if (item > largest) {
+           largest = item;
+       }
+   }
+   return largest;
+}
+```
+
+Sometimes there's a tradeoff between saving time and saving space, so you have to decide which one you're optimizing for.
+
+  
