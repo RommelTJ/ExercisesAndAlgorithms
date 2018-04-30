@@ -62,3 +62,26 @@ public static void printAllPossibleOrderedPairs(int[] items) {
 Here we're nesting two loops. If our array has n items, our outer loop runs n times and our inner loop runs n times for 
 each iteration of the outer loop, giving us n^2​​ total prints. Thus this method runs in O(n^2) time (or "quadratic 
 time"). If the array has 10 items, we have to print 100 times. If it has 1,000 items, we have to print 1,000,000 times. 
+
+##  N could be the actual input, or the size of the input
+   
+Both of these methods have O(n) runtime, even though one takes an integer as its input and the other takes an array:
+
+```
+public static void sayHiNTimes(int n) {
+    for (int i = 0; i < n; i++) {
+        System.out.println("hi");
+    }
+}
+```
+
+```
+public static void printAllItems(int[] items) {
+   for (int item : items) {
+       System.out.println(item);
+   }
+}
+```
+   
+So sometimes n is an actual number that's an input to our method, and other times n is the number of items in an input 
+array (or an input map, or an input object, etc.). 
