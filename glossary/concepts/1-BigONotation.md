@@ -85,3 +85,47 @@ public static void printAllItems(int[] items) {
    
 So sometimes n is an actual number that's an input to our method, and other times n is the number of items in an input 
 array (or an input map, or an input object, etc.). 
+
+##  Drop the constants
+   
+This is why big O notation rules. When you're calculating the big O complexity of something, you just throw out the 
+constants. So like:
+
+```
+public static void printAllItemsTwice(int[] items) {
+   for (int item : items) {
+       System.out.println(item);
+   }
+
+   // once more, with feeling
+   for (int item : items) {
+       System.out.println(item);
+   }
+}
+```
+   
+This is O(2n), which we just call O(n).
+
+```
+public static void printFirstItemThenFirstHalfThenSayHi100Times(int[] items) {
+   System.out.println(items[0]);
+
+   int middleIndex = items.length / 2;
+   int index = 0;
+
+   while (index < middleIndex) {
+       System.out.println(items[index]);
+       index++;
+   }
+
+   for (int i = 0; i < 100; i++) {
+       System.out.println("hi");
+   }
+}
+```
+   
+This is O(1 + n/2 + 100), which we just call O(n).
+
+Why can we get away with this? Remember, for big O notation we're looking at what happens as n gets arbitrarily large. 
+As n gets really big, adding 100 or dividing by 2 has a decreasingly significant effect.
+
