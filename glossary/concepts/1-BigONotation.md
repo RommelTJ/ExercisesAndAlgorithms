@@ -156,3 +156,32 @@ Similarly:
 * O((n + 30) * (n + 5)) is O(n^2)
 
 Again, we can get away with this because the less significant terms quickly become, well, less significant as n gets big.
+
+##  We're usually talking about the "worst case"
+   
+Often this "worst case" stipulation is implied. But sometimes you can impress your interviewer by saying it explicitly.
+
+Sometimes the worst case runtime is significantly worse than the best case runtime:
+
+```
+public static boolean contains(int[] haystack, int needle) {
+
+   // does the haystack contain the needle?
+   for (int n : haystack) {
+       if (n == needle) {
+           return true;
+       }
+   }
+
+   return false;
+}
+```
+  
+Here we might have 100 items in our haystack, but the first item might be the needle, in which case we would return in 
+just 1 iteration of our loop.
+
+In general we'd say this is O(n) runtime and the "worst case" part would be implied. But to be more specific we could 
+say this is worst case O(n) and best case O(1) runtime. For some algorithms we can also make rigorous statements about 
+the "average case" runtime.
+
+ 
