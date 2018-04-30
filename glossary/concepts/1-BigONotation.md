@@ -129,3 +129,30 @@ This is O(1 + n/2 + 100), which we just call O(n).
 Why can we get away with this? Remember, for big O notation we're looking at what happens as n gets arbitrarily large. 
 As n gets really big, adding 100 or dividing by 2 has a decreasingly significant effect.
 
+##  Drop the less significant terms
+
+For example:
+```
+     public static void printAllNumbersThenAllPairSums(int[] numbers) {
+   
+       System.out.println("these are the numbers:");
+       for (int number : numbers) {
+           System.out.println(number);
+       }
+   
+       System.out.println("and these are their sums:");
+       for (int firstNumber : numbers) {
+           for (int secondNumber : numbers) {
+               System.out.println(firstNumber + secondNumber);
+           }
+       }
+   }
+```
+   
+Here our runtime is O(n + n^2), which we just call O(n^2). Even if it was O(n^2/2 + 100n), it would still be O(n^2).
+   
+Similarly:
+* O(n^3 + 50n^2 + 10000) is O(n^3)
+* O((n + 30) * (n + 5)) is O(n^2)
+
+Again, we can get away with this because the less significant terms quickly become, well, less significant as n gets big.
