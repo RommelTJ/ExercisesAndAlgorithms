@@ -227,4 +227,23 @@ public static int getLargestItem(int[] items) {
 
 Sometimes there's a tradeoff between saving time and saving space, so you have to decide which one you're optimizing for.
 
+##  Big O analysis is awesome except when it's not
+
+You should make a habit of thinking about the time and space complexity of algorithms as you design them. Before long 
+this'll become second nature, allowing you to see optimizations and potential performance issues right away.
+
+Asymptotic analysis is a powerful tool, but wield it wisely.
+
+Big O ignores constants, but **sometimes the constants matter**. If we have a script that takes 5 hours to run, an 
+optimization that divides the runtime by 5 might not affect big O, but it still saves you 4 hours of waiting.
+
+**Beware of premature optimization**. Sometimes optimizing time or space negatively impacts readability or coding time. 
+For a young startup it might be more important to write code that's easy to ship quickly or easy to understand later, 
+even if this means it's less time and space efficient than it could be.
+
+But that doesn't mean startups don't care about big O analysis. A great engineer (startup or otherwise) knows how to 
+strike the right balance between runtime, space, implementation time, maintainability, and readability.
+
+You should develop the skill to see time and space optimizations, as well as the wisdom to judge if those optimizations 
+are worthwhile. 
   
