@@ -3,6 +3,39 @@ package com.rommelrico.exercises.q10binarysearchtreechecker;
 import java.util.Stack;
 
 /**
+ * Solution
+ *
+ * We do a depth-first walk through the tree, testing each node for validity as we go. A given node is valid if it's
+ * greater than all the ancestral nodes it's in the right sub-tree of and less than all the ancestral nodes it's in the
+ * left-subtree of. Instead of keeping track of each ancestor to check these inequalities, we just check the largest
+ * number it must be greater than (its lowerBound) and the smallest number it must be less than (its upperBound).
+ *
+ * Complexity
+ *
+ * O(n) time and O(n) space.
+ *
+ * What We Learned
+ *
+ * We could think of this as a greedy approach. We start off by trying to solve the problem in just one walk through
+ * the tree. So we ask ourselves what values we need to track in order to do that. Which leads us to our stack that
+ * tracks upper and lower bounds.
+ *
+ * We could also think of this as a sort of "divide and conquer" approach. The idea in general behind divide and
+ * conquer is to break the problem down into two or more subproblems, solve them, and then use that solution to solve
+ * the original problem.
+ *
+ * In this case, we're dividing the problem into subproblems by saying, "This tree is a valid binary search tree if
+ * the left subtree is valid and the right subtree is valid." This is more apparent in the recursive formulation of the
+ * answer above.
+ *
+ * Of course, it's just fine that our approach could be thought of as greedy or could be thought of as divide and
+ * conquer. It can be both. The point here isn't to create strict categorizations so we can debate whether or not
+ * something "counts" as divide and conquer.
+ *
+ * Instead, the point is to recognize the underlying patterns behind algorithms, so we can get better at thinking
+ * through problems.
+ *
+ * Sometimes we'll have to kinda smoosh together two or more different patterns to get our answer.
  *
  */
 public class BinarySearchTreeChecker {
