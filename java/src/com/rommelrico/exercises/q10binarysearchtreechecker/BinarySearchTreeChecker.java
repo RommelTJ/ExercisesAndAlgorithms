@@ -74,4 +74,17 @@ public class BinarySearchTreeChecker {
         return true;
     }
 
+    public static void main(String[] args) {
+        BinaryTreeNode rootNode = new BinaryTreeNode(50);
+        BinaryTreeNode left1 = rootNode.insertLeft(30);
+        BinaryTreeNode right1 = rootNode.insertRight(80);
+        System.out.println("Is Binary Search Tree: " + isBinarySearchTree(rootNode)); // true
+
+        left1.insertLeft(20);
+        left1.insertRight(60);
+        right1.insertLeft(70);
+        right1.insertRight(90);
+        System.out.println("Is Binary Search Tree: " + isBinarySearchTree(rootNode)); // false
+    }
+
 }
