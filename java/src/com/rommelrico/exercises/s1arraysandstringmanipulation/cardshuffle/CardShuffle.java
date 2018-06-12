@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q1cardshuffle;
+package com.rommelrico.exercises.s1arraysandstringmanipulation.cardshuffle;
 
 import java.util.Arrays;
 
