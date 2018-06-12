@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q43findduplicatefiles;
+package com.rommelrico.exercises.s2hashingandhashtables.findduplicatefiles;
 
 import java.io.File;
 import java.io.FileInputStream;
