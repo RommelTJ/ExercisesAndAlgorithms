@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q5mergemeetingtimes;
+package com.rommelrico.exercises.s1arraysandstringmanipulation.mergemeetingtimes;
 
 import java.util.*;
 
