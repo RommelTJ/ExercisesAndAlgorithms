@@ -1,5 +1,16 @@
 package com.rommelrico.exercises.s1arraysandstringmanipulation.reversestringinplace;
 
+/**
+ * Solution
+ *
+ * We swap the first and last characters, then the second and second-to-last characters, and so on until we reach the
+ * middle.
+ *
+ * Complexity
+ *
+ * O(n) time and O(1) space!
+ *
+ */
 public class ReverseStringInPlace {
 
     private static void reverse(char[] arrayOfChars) {
