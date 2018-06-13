@@ -33,9 +33,15 @@ public class ReverseStringInPlace {
 
     public static void main(String[] args) {
         char[] testArray = {'a', 'b', 'c'};
-        System.out.println("Original Array: " + testArray);
+        for (char c: testArray) {
+            System.out.println("Original Array: " + c);
+        }
+
+        System.out.println("Reversing...");
         reverse(testArray);
-        System.out.println("Reversed Array: " + testArray);
+        for (char c: testArray) {
+            System.out.println("Reversed Array: " + c);
+        }
     }
 
 }
