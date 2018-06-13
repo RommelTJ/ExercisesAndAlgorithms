@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q37singleriffleshuffle;
+package com.rommelrico.exercises.s1arraysandstringmanipulation.singleriffleshuffle;
 
 /**
  * Solution
@@ -35,7 +35,7 @@ package com.rommelrico.exercises.q37singleriffleshuffle;
  */
 public class SingleRiffleShuffle {
 
-    public static boolean isSingleRiffle(int[] half1, int[] half2, int[] shuffledDeck) {
+    private static boolean isSingleRiffle(int[] half1, int[] half2, int[] shuffledDeck) {
         int half1Index = 0;
         int half2Index = 0;
         int half1MaxIndex = half1.length - 1;
