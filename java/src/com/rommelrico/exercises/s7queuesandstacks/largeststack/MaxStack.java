@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q21largeststack;
+package com.rommelrico.exercises.s7queuesandstacks.largeststack;
 
 import java.util.Stack;
 

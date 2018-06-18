@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q6makingchange;
+package com.rommelrico.exercises.s6dynamicprogrammingandrecursion.makingchange;
 
 /**
  * Solution
