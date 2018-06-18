@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q20queuewithtwostacks;
+package com.rommelrico.exercises.s7queuesandstacks.queuewithtwostacks;
 
 import java.util.NoSuchElementException;
 import java.util.Stack;
