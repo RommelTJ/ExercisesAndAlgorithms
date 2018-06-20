@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q24linkedlistcyclechecker;
+package com.rommelrico.exercises.s8linkedlists.linkedlistcyclechecker;
 
 /**
  * Solution
