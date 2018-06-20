@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.s8linkedlists.linkedlistcyclechecker;
+package com.rommelrico.exercises.s8linkedlists.deletenode;
 
 public class LinkedListNode {
 
