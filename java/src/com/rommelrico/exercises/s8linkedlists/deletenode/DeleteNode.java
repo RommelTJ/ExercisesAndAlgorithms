@@ -22,5 +22,17 @@ public class DeleteNode {
         }
     }
 
+    public static void main(String[] args) {
+        LinkedListNode a = new LinkedListNode(1);
+        LinkedListNode b = new LinkedListNode(2);
+        LinkedListNode c = new LinkedListNode(3);
+
+        a.next = b;
+        b.next = c;
+
+        System.out.println("a.next.value: " + a.next.value);
+        deleteNode(b);
+        System.out.println("a.next.value: " + a.next.value);
+    }
 
 }
