@@ -2,7 +2,7 @@ package com.rommelrico.exercises.s8linkedlists.deletenode;
 
 public class DeleteNode {
 
-    public static void deleteNode(LinkedListNode nodeToDelete) {
+    private static void deleteNode(LinkedListNode nodeToDelete) {
 
         // get the input node's next node, the one we want to skip to
         LinkedListNode nextNode = nodeToDelete.next;
