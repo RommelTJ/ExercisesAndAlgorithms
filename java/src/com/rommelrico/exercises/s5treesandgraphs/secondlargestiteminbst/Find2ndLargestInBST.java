@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q11secondlargestiteminbst;
+package com.rommelrico.exercises.s5treesandgraphs.secondlargestiteminbst;
 
 /**
  * Solution
