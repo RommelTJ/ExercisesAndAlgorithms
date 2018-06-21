@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q37singleriffleshuffle;
+package com.rommelrico.exercises.s3greedyalgorithms.singleriffleshuffle;
 
 /**
  * Solution
