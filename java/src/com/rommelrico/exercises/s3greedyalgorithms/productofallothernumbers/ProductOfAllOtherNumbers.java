@@ -1,4 +1,4 @@
-package src.com.rommelrico.exercises.q3productofallothernumbers;
+package com.rommelrico.exercises.s3greedyalgorithms.productofallothernumbers;
 
 /**
  * Solution
