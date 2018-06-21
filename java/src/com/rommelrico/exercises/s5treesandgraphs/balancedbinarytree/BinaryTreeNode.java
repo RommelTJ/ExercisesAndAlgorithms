@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q9balancedbinarytree;
+package com.rommelrico.exercises.s5treesandgraphs.balancedbinarytree;
 
 public class BinaryTreeNode {
     public int value;
