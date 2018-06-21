@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q10binarysearchtreechecker;
+package com.rommelrico.exercises.s5treesandgraphs.binarysearchtreechecker;
 
 public class BinaryTreeNode {
 

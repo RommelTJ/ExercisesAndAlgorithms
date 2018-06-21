@@ -1,4 +1,4 @@
-package src.com.rommelrico.exercises.q2maxprofit;
+package com.rommelrico.exercises.s3greedyalgorithms.maxprofit;
 
 /**
  * Solution

@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q7rectangularlove;
+package com.rommelrico.exercises.s10generalprogramming.rectangularlove;
 
 /**
  * Solution

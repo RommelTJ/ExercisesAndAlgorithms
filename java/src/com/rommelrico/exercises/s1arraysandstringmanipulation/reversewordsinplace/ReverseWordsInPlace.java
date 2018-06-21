@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q28reversewordsinplace;
+package com.rommelrico.exercises.s1arraysandstringmanipulation.reversewordsinplace;
 
 /**
  * Solution

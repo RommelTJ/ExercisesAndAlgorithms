@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q8temperaturetracker;
+package com.rommelrico.exercises.s10generalprogramming.temperaturetracker;
 
 /**
  * Solution

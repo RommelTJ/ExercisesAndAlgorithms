@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q36inplaceshuffle;
+package com.rommelrico.exercises.s3greedyalgorithms.inplaceshuffle;
 
 import java.util.Arrays;
 import java.util.Random;
