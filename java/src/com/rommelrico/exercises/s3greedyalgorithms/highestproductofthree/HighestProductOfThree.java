@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q4highestproductofthree;
+package com.rommelrico.exercises.s3greedyalgorithms.highestproductofthree;
 
 /**
  * Solution
