@@ -1,4 +1,4 @@
-package com.rommelrico.exercises.q9balancedbinarytree;
+package com.rommelrico.exercises.s5treesandgraphs.balancedbinarytree;
 
 import java.util.List;
 import java.util.ArrayList;
