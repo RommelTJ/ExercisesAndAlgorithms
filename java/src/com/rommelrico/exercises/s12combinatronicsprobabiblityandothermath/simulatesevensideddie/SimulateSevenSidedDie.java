@@ -28,7 +28,10 @@ public class SimulateSevenSidedDie {
     }
 
     public static void main(String[] args) {
-
+        System.out.println(rand7());
+        System.out.println(rand7());
+        System.out.println(rand7());
+        System.out.println(rand7());
     }
 
 }
