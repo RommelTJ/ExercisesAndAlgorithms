@@ -73,4 +73,21 @@ slot hold a pointer to a linked list holding the values for all the keys that ha
 Notice that we included the keys as well as the values in each linked list node. Otherwise we 
 wouldn't know which key was for which value!
 
- 
+
+## When hash table operations cost O(n) time
+
+### Hash collisions
+
+If all our keys caused hash collisions, we'd be at risk of having to walk through all of our 
+values for a single lookup (in the example above, we'd have one big linked list). This is 
+unlikely, but it could happen. That's the worst case.
+
+### Dynamic array resizing
+
+Suppose we keep adding more items to our hash map. As the number of keys and values in our hash 
+map exceeds the number of indices in the underlying array, hash collisions become inevitable.
+
+To mitigate this, we could expand our underlying array whenever things start to get crowded. 
+That requires allocating a larger array and rehashing all of our existing keys to figure out 
+their new position—O(n) time.
+
