@@ -22,3 +22,14 @@ largest key, or all the keys in a range, you'll need to look through every key t
 3. Single-directional lookups. While you can look up the value for a given key in O(1) time, 
 looking up the keys for a given value requires looping through the whole dataset—O(n) time.
 
+## Java Implementation
+
+In Java, they're called hash maps.
+
+```
+HashMap<String, Integer> lightBulbToHoursOfLight = new HashMap<>();
+
+lightBulbToHoursOfLight.put("incandescent", 1200);
+lightBulbToHoursOfLight.put("compact fluorescent", 10000);
+lightBulbToHoursOfLight.put("LED", 50000);
+```
