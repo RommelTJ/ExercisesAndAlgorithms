@@ -60,3 +60,17 @@ number that's less than 30 (and at least 0):
 
 429%30 = 9
 
+## Hash collisions
+
+What if two keys hash to the same index in our array? In our example above, look at "lies" and 
+"foes". They both sum up to 429! So of course they'll have the same answer when we mod by 30.
+
+This is called a hash collision. There are a few different strategies for dealing with them.
+
+Here's a common one: instead of storing the actual values in our array, let's have each array 
+slot hold a pointer to a linked list holding the values for all the keys that hash to that index.
+
+Notice that we included the keys as well as the values in each linked list node. Otherwise we 
+wouldn't know which key was for which value!
+
+ 
