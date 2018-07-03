@@ -33,3 +33,30 @@ lightBulbToHoursOfLight.put("incandescent", 1200);
 lightBulbToHoursOfLight.put("compact fluorescent", 10000);
 lightBulbToHoursOfLight.put("LED", 50000);
 ```
+
+## Hash maps are built on arrays
+
+Arrays are pretty similar to hash maps already. Arrays let you quickly look up the value for a 
+given "key"... except the keys are called "indices," and we don't get to pick them—they're always 
+sequential integers (0, 1, 2, 3, etc).
+
+Think of a hash map as a "hack" on top of an array to let us use flexible keys instead of being 
+stuck with sequential integer "indices."
+
+All we need is a function to convert a key into an array index (an integer). That function is 
+called a hashing function.
+
+To look up the value for a given key, we just run the key through our hashing function to get 
+the index to go to in our underlying array to grab the value.
+
+How does that hashing method work? There are a few different approaches, and they can get pretty 
+complicated. But here's a simple proof of concept:
+
+Grab the number value for each character and add those up. For example, "lies" adds up to 429. 
+
+But what if we only have 30 slots in our array? We'll use a common trick for forcing a number 
+into a specific range: the modulus operator (%). Modding our sum by 30 ensures we get a whole 
+number that's less than 30 (and at least 0):
+
+429%30 = 9
+
