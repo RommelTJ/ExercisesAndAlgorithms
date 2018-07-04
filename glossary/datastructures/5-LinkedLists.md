@@ -51,3 +51,13 @@ LinkedListNode c = new LinkedListNode(9);
 a.next = b;
 b.next = c;
 ```
+
+## Doubly Linked Lists
+
+In a basic linked list, each item stores a single pointer to the next element.
+
+In a doubly linked list, items have pointers to the next and the previous nodes.
+
+Doubly linked lists allow us to traverse our list backwards. In a singly linked list, if you 
+just had a pointer to a node in the middle of a list, there would be no way to know what nodes 
+came before it. Not a problem in a doubly linked list.
