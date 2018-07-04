@@ -38,3 +38,16 @@ from the head of the list to the ith item.
 **Uses**:
 1. Stacks and queues only need fast operations on the ends, so linked lists are ideal.
 
+## Java Implementation
+
+Most languages don't provide a linked list implementation. Assuming we've already implemented 
+our own, here's how we'd construct the linked list above:
+
+```
+LinkedListNode a = new LinkedListNode(5);
+LinkedListNode b = new LinkedListNode(1);
+LinkedListNode c = new LinkedListNode(9);
+
+a.next = b;
+b.next = c;
+```
