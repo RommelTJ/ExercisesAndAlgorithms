@@ -21,3 +21,9 @@ A queue stores items in a first-in, first-out (FIFO) order.
 received.
 4. Processes wait in the CPU scheduler's queue for their turn to run.
 
+## Implementation
+
+Queues are easy to implement with linked lists:
+1. To enqueue, insert at the tail of the linked list.
+2. To dequeue, remove at the head of the linked list.
+
