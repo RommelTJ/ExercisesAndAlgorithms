@@ -61,3 +61,14 @@ In a doubly linked list, items have pointers to the next and the previous nodes.
 Doubly linked lists allow us to traverse our list backwards. In a singly linked list, if you 
 just had a pointer to a node in the middle of a list, there would be no way to know what nodes 
 came before it. Not a problem in a doubly linked list.
+
+## Not cache-friendly
+
+Most computers have caching systems that make reading from sequential addresses in memory faster 
+than reading from scattered addresses.
+
+Array items are always located right next to each other in computer memory, but linked list 
+nodes can be scattered all over.
+
+So iterating through a linked list is usually quite a bit slower than iterating through the 
+items in an array, even though they're both theoretically O(n) time.
