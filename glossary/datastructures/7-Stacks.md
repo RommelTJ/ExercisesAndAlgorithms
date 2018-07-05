@@ -25,3 +25,12 @@ which function do we "pop" back to? The last one that "pushed" a function call.
 visit next.
 3. String parsing—stacks turn out to be useful for several types of string parsing.
 
+# Implementation
+
+You can implement a stack with either a linked list or a dynamic array — they both work pretty well:
+
+|                | Stack Push     | Stack Pop           |
+| -------------- | -------------- | ------------------- |
+| Linked Lists   | insert at head | remove at head      |
+| Dynamic Arrays | append         | remove last element |
+
