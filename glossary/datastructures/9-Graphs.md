@@ -102,3 +102,38 @@ int[][] graph = {
 ```
 
 Since node 3 has edges to nodes 1 and 2, graph[3][1] and graph[3][2] have value 1. 
+
+## Algorithms
+
+### BFS and DFS
+
+You should know breadth-first search (BFS) and depth-first search (DFS) down pat so you can code 
+them up quickly.
+
+Lots of graph problems can be solved using just these traversals:
+
+**Is there a path between two nodes in this undirected graph?** Run DFS or BFS from one node and see 
+if you reach the other one.
+
+**What's the shortest path between two nodes in this undirected, unweighted graph?** Run BFS from 
+one node and backtrack once you reach the second. Note: BFS always finds the shortest path, 
+assuming the graph is undirected and unweighted. DFS does not always find the shortest path.
+
+**Can this undirected graph be colored with two colors?** Run BFS, assigning colors as nodes are 
+visited. Abort if we ever try to assign a node a color different from the one it was assigned 
+earlier.
+
+**Does this undirected graph have a cycle?** Run BFS, keeping track of the number of times we're 
+visiting each node. If we ever visit a node twice, then we have a cycle.
+
+### Advanced graph algorithms
+
+If you have lots of time before your interview, these advanced graph algorithms pop up 
+occasionally:
+1. Dijkstra's Algorithm: Finds the shortest path from one node to all other nodes in a weighted 
+graph.
+2. Topological Sort: Arranges the nodes in a directed, acyclic graph in a special order based 
+on incoming edges.
+3. Minimum Spanning Tree: Finds the cheapest set of edges needed to reach all nodes in a 
+weighted graph.
+
