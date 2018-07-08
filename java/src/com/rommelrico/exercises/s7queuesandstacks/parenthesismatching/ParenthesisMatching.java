@@ -22,4 +22,9 @@ public class ParenthesisMatching {
         throw new IllegalArgumentException("No closing parenthesis :(");
     }
 
+    public static void main(String[] args) {
+        String input = "Sometimes (when I nest them (my parentheticals) too much (like this (and this))) they get confusing.";
+        System.out.println("Corresponding closing parenthesis is at position: " + getClosingParen(input, 10));
+    }
+
 }
