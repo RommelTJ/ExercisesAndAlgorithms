@@ -51,4 +51,12 @@ public class FindDuplicate {
         return floor;
     }
 
+    public static void main(String[] args) {
+        int[] testArray1 = {1, 2, 3, 3, 4, 5};
+        System.out.println("The Duplicate is: " + findRepeat(testArray1));
+
+        int[] testArray2 = {1, 1, 5, 5, 5, 5};
+        System.out.println("The Duplicate is: " + findRepeat(testArray2));
+    }
+
 }
