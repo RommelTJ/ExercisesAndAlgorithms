@@ -1,6 +1,5 @@
 package com.rommelrico.exercises.s2hashingandhashtables.worldclouddata;
 
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
