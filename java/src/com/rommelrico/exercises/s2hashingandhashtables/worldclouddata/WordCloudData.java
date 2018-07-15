@@ -119,4 +119,12 @@ public class WordCloudData {
     private String capitalize(String word) {
         return word.substring(0, 1).toUpperCase() + word.substring(1);
     }
+
+    public static void main(String[] args) {
+        String test = "After beating the eggs, Dana read the next step: "
+                + "Add milk and eggs, then add flour and sugar.";
+
+        WordCloudData wordCloudData = new WordCloudData(test);
+        System.out.println("wordsToCounts map: " + wordCloudData.getWordsToCounts().toString());
+    }
 }
