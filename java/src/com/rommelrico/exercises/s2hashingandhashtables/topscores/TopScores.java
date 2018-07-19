@@ -1,5 +1,15 @@
 package com.rommelrico.exercises.s2hashingandhashtables.topscores;
 
+/**
+ * Solution
+ *
+ * We use counting sort.
+ *
+ * Complexity
+ *
+ * O(n) time and O(n) space, where n is the number of scores.
+ *
+ */
 public class TopScores {
 
     public static int[] sortScores(int[] unorderedScores, int highestPossibleScore) {
