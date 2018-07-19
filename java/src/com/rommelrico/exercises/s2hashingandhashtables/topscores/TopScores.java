@@ -32,5 +32,15 @@ public class TopScores {
         return sortedScores;
     }
 
+    public static void main(String[] args) {
+        int[] unsortedScores = {37, 89, 41, 65, 91, 53};
+        final int HIGHEST_POSSIBLE_SCORE = 100;
+
+        int[] sortedScores = sortScores(unsortedScores, HIGHEST_POSSIBLE_SCORE);
+        for (int score: sortedScores) {
+            System.out.println("Sorted Scores: " + score);
+        }
+    }
+
 }
 
