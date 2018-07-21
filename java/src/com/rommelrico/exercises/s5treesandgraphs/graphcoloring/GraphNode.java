@@ -41,4 +41,11 @@ public class GraphNode {
         this.color = Optional.ofNullable(color);
     }
 
+    @Override
+    public String toString() {
+        return "GraphNode{" +
+                "label='" + label + '\'' +
+                ", color=" + color +
+                '}';
+    }
 }
