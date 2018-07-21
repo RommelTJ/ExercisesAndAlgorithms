@@ -35,4 +35,26 @@ public class GraphColoring {
         }
     }
 
+    public static void main(String[] args) {
+        GraphNode a = new GraphNode("a");
+        GraphNode b = new GraphNode("b");
+        GraphNode c = new GraphNode("c");
+
+        a.addNeighbor(b);
+        b.addNeighbor(a);
+        b.addNeighbor(c);
+        c.addNeighbor(b);
+
+        GraphNode[] graph = new GraphNode[] { a, b, c };
+        String[] colors = {"red", "green", "blue", "yellow"};
+
+        for (GraphNode node: graph) {
+            System.out.println(node);
+        }
+        colorGraph(graph, colors);
+        for (GraphNode node: graph) {
+            System.out.println(node);
+        }
+    }
+
 }
