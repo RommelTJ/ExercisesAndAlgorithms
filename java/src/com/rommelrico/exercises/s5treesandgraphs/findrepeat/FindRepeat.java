@@ -2,7 +2,7 @@ package com.rommelrico.exercises.s5treesandgraphs.findrepeat;
 
 public class FindRepeat {
 
-    public int findRepeat(int[] intArray) {
+    public static int findRepeat(int[] intArray) {
 
         final int n = intArray.length - 1;
 
@@ -51,4 +51,11 @@ public class FindRepeat {
         return pointerStart;
     }
 
+    public static void main(String[] args) {
+        int[] testArray1 = {1, 2, 3, 3, 4, 5};
+        System.out.println("The Duplicate is: " + findRepeat(testArray1));
+
+        int[] testArray2 = {1, 1, 5, 5, 5, 5};
+        System.out.println("The Duplicate is: " + findRepeat(testArray2));
+    }
 }
