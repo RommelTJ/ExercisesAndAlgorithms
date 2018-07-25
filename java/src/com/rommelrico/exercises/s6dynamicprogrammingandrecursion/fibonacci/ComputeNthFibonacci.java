@@ -1,5 +1,26 @@
 package src.com.rommelrico.exercises.s6dynamicprogrammingandrecursion.fibonacci;
 
+/**
+ * Solution
+ *
+ * We use a bottom-up approach, starting with the 0th Fibonacci number and iteratively computing subsequent numbers
+ * until we get to n.
+ *
+ * Complexity
+ *
+ * O(n) time and O(1) space.
+ *
+ * What We Learned
+ *
+ * This one's a good illustration of the tradeoff we sometimes have between code cleanliness and efficiency.
+ *
+ * We could use a cute, recursive method to solve the problem. But that would cost O(2^n) time as opposed to n time in
+ * our final bottom-up solution. Massive difference!
+ *
+ * In general, whenever you have a recursive solution to a problem, think about what's actually happening on the call
+ * stack. An iterative solution might be more efficient.
+ *
+ */
 public class ComputeNthFibonacci {
 
     public static int fib(int n) {
