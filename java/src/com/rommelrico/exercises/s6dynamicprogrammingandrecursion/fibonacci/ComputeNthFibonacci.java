@@ -31,4 +31,10 @@ public class ComputeNthFibonacci {
         return current;
     }
 
+    public static void main(String[] args) {
+        System.out.println("FIB(5) -> " + fib(0));
+        System.out.println("FIB(5) -> " + fib(5));
+        System.out.println("FIB(5) -> " + fib(6));
+    }
+
 }
