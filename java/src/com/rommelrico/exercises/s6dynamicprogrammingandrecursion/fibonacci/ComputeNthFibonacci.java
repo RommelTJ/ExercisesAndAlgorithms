@@ -1,4 +1,4 @@
-package src.com.rommelrico.exercises.s6dynamicprogrammingandrecursion.fibonacci;
+package com.rommelrico.exercises.s6dynamicprogrammingandrecursion.fibonacci;
 
 /**
  * Solution
