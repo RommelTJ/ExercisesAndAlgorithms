@@ -46,4 +46,16 @@ public class CakeThief {
         return maxValuesAtCapacities[weightCapacity];
     }
 
+    public static void main(String[] args) {
+        CakeType[] cakeTypes = new CakeType[] {
+                new CakeType(7, 160),
+                new CakeType(3, 90),
+                new CakeType(2, 15),
+        };
+
+        int capacity = 20;
+        long result = maxDuffelBagValue(cakeTypes, capacity);
+        System.out.println("maxDuffelBagValue(cakeTypes, 20): " + result);
+    }
+
 }
