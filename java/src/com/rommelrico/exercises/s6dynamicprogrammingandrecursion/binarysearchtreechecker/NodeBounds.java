@@ -1,6 +1,6 @@
 package com.rommelrico.exercises.s6dynamicprogrammingandrecursion.binarysearchtreechecker;
 
-import com.rommelrico.exercises.s5treesandgraphs.binarysearchtreechecker.BinaryTreeNode;
+import com.rommelrico.exercises.s6dynamicprogrammingandrecursion.binarysearchtreechecker.BinaryTreeNode;
 
 public class NodeBounds {
 
