@@ -2,6 +2,27 @@ package com.rommelrico.exercises.s8linkedlists.reverselinkedlist;
 
 import java.util.LinkedList;
 
+/**
+ * Solution
+ *
+ * In one pass from head to tail of our input list, we point each node's next pointer to the previous item.
+ *
+ * The order of operations is important here! We're careful to copy currentNode.next into next before setting
+ * currentNode.next to previousNode. Otherwise "stepping forward" at the end could actually mean stepping back to
+ * previousNode!
+ *
+ * Complexity
+ *
+ * O(n) time and O(1) space.
+ *
+ * What We Learned
+ *
+ * It's one of those problems where, even once you know the procedure, it's hard to write a bug-free solution. Drawing
+ * it out helps a lot. Write out a sample linked list and walk through your code by hand, step by step, running each
+ * operation on your sample input to see if the final output is what you expect. This is a great strategy for any
+ * coding interview question.
+ *
+ */
 public class ReverseLinkedList {
 
     public static LinkedListNode reverse(LinkedListNode headOfList) {
