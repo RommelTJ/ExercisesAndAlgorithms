@@ -1,7 +1,5 @@
 package com.rommelrico.exercises.s8linkedlists.reverselinkedlist;
 
-import java.util.LinkedList;
-
 /**
  * Solution
  *
