@@ -9,4 +9,11 @@ public class LinkedListNode {
         this.value = value;
     }
 
+    @Override
+    public String toString() {
+        return "LinkedListNode{" +
+                "value='" + value + '\'' +
+                ", next=" + next +
+                '}';
+    }
 }
