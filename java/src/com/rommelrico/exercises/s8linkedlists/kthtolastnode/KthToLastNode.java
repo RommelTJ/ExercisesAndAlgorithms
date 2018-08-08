@@ -39,5 +39,20 @@ public class KthToLastNode {
         // leftNode is now the kth to last node!
         return leftNode;
     }
-    
+
+    public static void main(String[] args) {
+        LinkedListNode a = new LinkedListNode("Angel Food");
+        LinkedListNode b = new LinkedListNode("Bundt");
+        LinkedListNode c = new LinkedListNode("Cheese");
+        LinkedListNode d = new LinkedListNode("Devil's Food");
+        LinkedListNode e = new LinkedListNode("Eccles");
+
+        a.next = b;
+        b.next = c;
+        c.next = d;
+        d.next = e;
+
+        System.out.println(kthToLastNode(3, a));
+    }
+
 }
