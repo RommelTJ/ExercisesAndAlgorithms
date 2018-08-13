@@ -19,5 +19,10 @@ public class WhichAppearsTwice {
 
         return actualSum - sumWithoutDuplicate;
     }
-    
+
+    public static void main(String[] args) {
+        int[] numbers = {1, 3, 2, 5, 3, 4};
+        System.out.println("Which appears twice? " + findRepeat(numbers) +"! ");
+    }
+
 }
