@@ -28,9 +28,9 @@ public class ShoppingCart {
         return sum;
     }
 
-    public void pay() {
+    public void pay(Payment paymentStrategy) {
         int amount = calculateTotal();
-        // TODO: Implement payment algorithm.
+        paymentStrategy.pay(amount);
     }
 
 }
