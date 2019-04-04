@@ -22,5 +22,5 @@ public class EmailTopicSubscriber implements Observer {
     public void setSubject(Subject subject) {
         this.topic = subject;
     }
-    
+
 }

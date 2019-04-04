@@ -10,8 +10,8 @@ public class EmailTopic implements Subject {
     private List<Observer> observers;
     private String message;
 
-    public EmailTopic(List<Observer> observers) {
-        this.observers = observers;
+    public EmailTopic() {
+        this.observers = new ArrayList<>();
     }
 
     @Override
