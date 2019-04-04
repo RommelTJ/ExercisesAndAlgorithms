@@ -29,5 +29,9 @@ public class Main {
         // Provider/Subject (broadcaster)
         emailTopic.postMessage("Hello Subscribers");
 
+        // Unregister
+        emailTopic.unregister(firstObserver);
+        emailTopic.postMessage("Hello Subscribers Again");
+
     }
 }
