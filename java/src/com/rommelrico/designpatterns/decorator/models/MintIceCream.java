@@ -10,6 +10,7 @@ public class MintIceCream extends IceCreamDecorator {
 
     @Override
     public double cost() {
+        System.out.println("Adding Mint Ice Cream!");
         return 0.80 + super.cost();
     }
 

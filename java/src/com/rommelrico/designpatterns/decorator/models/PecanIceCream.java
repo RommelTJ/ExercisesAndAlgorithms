@@ -10,6 +10,7 @@ public class PecanIceCream extends IceCreamDecorator {
 
     @Override
     public double cost() {
+        System.out.println("Adding Pecan Ice Cream!");
         return 1.5 + super.cost();
     }
 
