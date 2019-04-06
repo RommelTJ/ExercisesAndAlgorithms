@@ -1,12 +1,10 @@
 package com.rommelrico.designpatterns.factory.model;
 
-public class Hamburger {
+public abstract class Hamburger {
 
-    private String name;
-
-    public Hamburger(String name) {
-        this.name = name;
-    }
+    public String name;
+    public String sauce;
+    public String buns;
 
     public void prepare() {
         System.out.println("Preparing hamburger: " + name);
