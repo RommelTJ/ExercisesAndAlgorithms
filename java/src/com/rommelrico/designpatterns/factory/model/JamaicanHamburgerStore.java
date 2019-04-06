@@ -8,7 +8,7 @@ public class JamaicanHamburgerStore extends HamburgerStore {
     public Hamburger createHamburger(String type) {
         if (type.equals("cheese")) {
             return new JamaicanCheeseburger();
-        } else if (type.equals("Veggie")) {
+        } else if (type.equals("veggie")) {
             return new JamaicanVeggieburger();
         }
         return null;
