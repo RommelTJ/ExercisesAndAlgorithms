@@ -8,4 +8,8 @@ class JamaicanCheeseburger extends Hamburger {
         this.sauce = "Jamaican Sauce";
     }
 
+    @Override
+    public void cook() {
+        System.out.println("Cooking Jamaican style!");
+    }
 }
