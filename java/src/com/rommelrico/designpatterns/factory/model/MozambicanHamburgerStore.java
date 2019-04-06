@@ -7,9 +7,9 @@ public class MozambicanHamburgerStore extends HamburgerStore {
     @Override
     public Hamburger createHamburger(String type) {
         if (type.equals("cheese")) {
-            return new MozambicanCheeseburger("Mozambican Cheeseburger");
+            return new MozambicanCheeseburger();
         } else if (type.equals("Veggie")) {
-            return new MozambicanVeggieburger("Mozambican Veggieburger");
+            return new MozambicanVeggieburger();
         }
         return null;
     }
