@@ -2,20 +2,26 @@ package com.rommelrico.designpatterns.factory.model;
 
 public abstract class Hamburger {
 
-    public String name;
-    public String sauce;
-    public String buns;
+    String name;
+    String sauce;
+    String buns;
 
     public void prepare() {
-        System.out.println("Preparing hamburger: " + name);
+        System.out.println("Preparing: " + name);
+        System.out.println("Adding sauce: " + sauce);
+        System.out.println("Adding buns: " + buns);
     }
 
     public void cook() {
-        System.out.println("Cooking hamburger: " + name);
+        System.out.println("Cooking: " + name);
     }
 
     public void box() {
-        System.out.println("Boxing hamburger: " + name);
+        System.out.println("Boxing: " + name);
+    }
+
+    public String getName() {
+        return name;
     }
 
 }
