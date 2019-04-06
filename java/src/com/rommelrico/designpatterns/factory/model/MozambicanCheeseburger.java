@@ -2,8 +2,10 @@ package com.rommelrico.designpatterns.factory.model;
 
 class MozambicanCheeseburger extends Hamburger {
 
-    MozambicanCheeseburger(String name) {
-        super(name);
+    MozambicanCheeseburger() {
+        this.name = "Jamaican Cheeseburger";
+        this.buns = "Jamaican Buns";
+        this.sauce = "Jamaican Sauce";
     }
 
 }
