@@ -14,5 +14,8 @@ public class Main {
 
         Hamburger burger2 = jamaicanStore.orderHamburger("veggie");
         System.out.println("Rommel ordered: " + burger2.getName());
+
+        Hamburger burger3 = jamaicanStore.orderHamburger("cheese");
+        System.out.println("Rommel ordered: " + burger3.getName());
     }
 }
