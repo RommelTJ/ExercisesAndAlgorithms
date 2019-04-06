@@ -4,16 +4,10 @@ import com.rommelrico.designpatterns.factory.model.*;
 
 public abstract class HamburgerStore {
 
-    SimpleHamburgerFactory factory;
-
-    public HamburgerStore(SimpleHamburgerFactory factory) {
-        this.factory = factory;
-    }
-
     public Hamburger orderHamburger(String type) {
         Hamburger hamburger;
 
-        hamburger = factory.createHamburger(type);
+        hamburger = createHamburger(type);
 
         hamburger.prepare();
         hamburger.cook();
@@ -21,5 +15,8 @@ public abstract class HamburgerStore {
 
         return hamburger;
     }
+
+    // This is abstract so that other Factories can create their own versions.
+    abstract Hamburger createHamburger(String type);
 
 }
