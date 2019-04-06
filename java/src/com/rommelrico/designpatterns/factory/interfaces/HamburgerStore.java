@@ -17,6 +17,6 @@ public abstract class HamburgerStore {
     }
 
     // This is abstract so that other Factories can create their own versions.
-    abstract Hamburger createHamburger(String type);
+    abstract public Hamburger createHamburger(String type);
 
 }
