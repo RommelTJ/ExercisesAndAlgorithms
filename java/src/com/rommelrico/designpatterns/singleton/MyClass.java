@@ -2,12 +2,17 @@ package com.rommelrico.designpatterns.singleton;
 
 class MyClass {
 
+    private static MyClass uniqueInstance;
+
     String name;
 
     private MyClass() { }
 
     static MyClass getInstance() {
-        return new MyClass();
+        if (uniqueInstance == null) {
+            uniqueInstance = new MyClass();
+        }
+        return uniqueInstance;
     }
 
     public String getName() {
