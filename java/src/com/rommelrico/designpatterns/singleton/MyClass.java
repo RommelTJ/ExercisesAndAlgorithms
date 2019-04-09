@@ -8,7 +8,8 @@ class MyClass {
 
     private MyClass() { }
 
-    static MyClass getInstance() {
+    static synchronized MyClass getInstance() {
+        // Adding the synchronized keyword makes our singleton thread safe
         if (uniqueInstance == null) {
             uniqueInstance = new MyClass();
         }
