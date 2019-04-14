@@ -7,6 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
         testingObjectAdapter();
+        System.out.println("--");
+        testingSocketAdapter();
     }
 
     private static void testingObjectAdapter() {
