@@ -19,6 +19,16 @@ public class Main {
         System.out.println("V12 volts is using Object Adapter " + v12.getVolts());
         System.out.println("V120 volts is using Object Adapter " + v120.getVolts());
     }
+    private static void testingSocketAdapter() {
+        SocketAdapter socketAdapter = new SocketAdapterImpl();
+        Volt v3 = getVolt(socketAdapter, 3);
+        Volt v12 = getVolt(socketAdapter, 12);
+        Volt v120 = getVolt(socketAdapter, 120);
+
+        System.out.println("V3 volts is using Socket Adapter " + v3.getVolts());
+        System.out.println("V12 volts is using Socket Adapter " + v12.getVolts());
+        System.out.println("V120 volts is using Socket Adapter " + v120.getVolts());
+    }
 
     private static Volt getVolt(SocketAdapter socketAdapter, int i) {
         switch (i) {
