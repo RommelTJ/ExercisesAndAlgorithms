@@ -12,7 +12,7 @@ public class MarioRightCommand implements Command {
 
     @Override
     public void execute() {
-        marioCharacter.moveLeft();
+        marioCharacter.moveRight();
     }
 
 }
