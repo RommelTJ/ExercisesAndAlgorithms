@@ -6,7 +6,7 @@ import com.rommelrico.designpatterns.adapter.models.*;
 public class Main {
 
     public static void main(String[] args) {
-
+        testingObjectAdapter();
     }
 
     private static void testingObjectAdapter() {
