@@ -7,9 +7,14 @@ public abstract class Game {
 
     // Template method
     public final void play() {
+        loadAssets();
         initialize();
         startPlay();
         endPlay();
+    }
+
+    public void loadAssets() {
+        System.out.println("Loading Game Assets...");
     }
 
 }
