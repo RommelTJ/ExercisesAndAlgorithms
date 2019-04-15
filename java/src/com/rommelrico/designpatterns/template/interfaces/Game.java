@@ -6,7 +6,7 @@ public abstract class Game {
     public abstract void endPlay();
 
     // Hooked-on Template method
-    abstract void addNewCharacterToGame();
+    public abstract void addNewCharacterToGame();
 
     // Template method
     public final void play() {
