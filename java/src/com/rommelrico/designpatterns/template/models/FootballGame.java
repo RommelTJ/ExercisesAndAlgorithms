@@ -18,5 +18,5 @@ public class FootballGame extends Game {
     public void endPlay() {
         System.out.println("Football Game Ending...");
     }
-    
+
 }
