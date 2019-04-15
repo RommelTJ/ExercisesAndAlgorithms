@@ -6,11 +6,8 @@ import com.rommelrico.designpatterns.template.models.*;
 public class Main {
 
     public static void main(String[] args) {
-        Game game = new FootballGame();
+        Game game = new EndlessRunnerGame();
         game.play();
-        System.out.println("----");
-        Game game2 = new EndlessRunnerGame();
-        game2.play();
     }
 
 }
