@@ -24,7 +24,7 @@ public abstract class Game {
     }
 
     private boolean addNewGameCharacter() {
-        return true;
+        return false;
     }
 
 }

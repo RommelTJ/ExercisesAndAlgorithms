@@ -19,4 +19,8 @@ public class FootballGame extends Game {
         System.out.println("Football Game Ending...");
     }
 
+    @Override
+    public void addNewCharacterToGame() {
+        System.out.println("Adding character not supported in Football Game");
+    }
 }
