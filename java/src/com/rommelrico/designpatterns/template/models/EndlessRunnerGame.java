@@ -1,19 +1,21 @@
-package com.rommelrico.designpatterns.template;
+package com.rommelrico.designpatterns.template.models;
+
+import com.rommelrico.designpatterns.template.interfaces.*;
 
 public class EndlessRunnerGame extends Game {
 
     @Override
-    void initialize() {
+    public void initialize() {
         System.out.println("Endless Runner Initializing...");
     }
 
     @Override
-    void startPlay() {
+    public void startPlay() {
         System.out.println("Endless Runner Starting...");
     }
 
     @Override
-    void endPlay() {
+    public void endPlay() {
         System.out.println("Endless Runner Ending...");
     }
 
