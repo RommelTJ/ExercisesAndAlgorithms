@@ -13,18 +13,11 @@ public abstract class Game {
         loadAssets();
         initialize();
         startPlay();
-        if (addNewGameCharacter()) {
-            addNewCharacterToGame();
-        }
         endPlay();
     }
 
     private void loadAssets() {
         System.out.println("Loading Game Assets...");
-    }
-
-    private boolean addNewGameCharacter() {
-        return false;
     }
 
 }

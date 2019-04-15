@@ -14,7 +14,9 @@ public class EndlessRunnerGame extends Game {
     @Override
     public void startPlay() {
         System.out.println("Endless Runner Starting...");
-        playerWantsNewCharacter();
+        if (playerWantsNewCharacter()) {
+            addNewCharacterToGame();
+        }
     }
 
     @Override
@@ -27,7 +29,7 @@ public class EndlessRunnerGame extends Game {
         System.out.println("Adding a new character to the game...");
     }
 
-    public boolean playerWantsNewCharacter() {
+    private boolean playerWantsNewCharacter() {
         String answer = getUserInput();
         return answer.toLowerCase().equals("y");
     }
