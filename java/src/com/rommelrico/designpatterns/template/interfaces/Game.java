@@ -5,16 +5,26 @@ public abstract class Game {
     public abstract void startPlay();
     public abstract void endPlay();
 
+    // Hooked-on Template method
+    abstract void addNewCharacterToGame();
+
     // Template method
     public final void play() {
         loadAssets();
         initialize();
         startPlay();
+        if (addNewGameCharacter()) {
+            addNewCharacterToGame();
+        }
         endPlay();
     }
 
-    public void loadAssets() {
+    private void loadAssets() {
         System.out.println("Loading Game Assets...");
+    }
+
+    private boolean addNewGameCharacter() {
+        return true;
     }
 
 }
