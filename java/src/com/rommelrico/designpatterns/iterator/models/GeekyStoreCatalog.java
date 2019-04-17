@@ -1,8 +1,10 @@
 package com.rommelrico.designpatterns.iterator.models;
 
+import com.rommelrico.designpatterns.iterator.interfaces.*;
+
 import java.util.*;
 
-public class GeekyStoreCatalog {
+public class GeekyStoreCatalog implements Catalog {
 
     private ArrayList<Product> catalog;
 
@@ -21,7 +23,7 @@ public class GeekyStoreCatalog {
         catalog.add(product);
     }
 
-    GeekyStoreIterator createIterator() {
+    public GeekyStoreIterator createIterator() {
         return new GeekyStoreIterator(catalog);
     }
 

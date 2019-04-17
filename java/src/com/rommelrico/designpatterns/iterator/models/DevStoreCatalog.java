@@ -1,6 +1,8 @@
 package com.rommelrico.designpatterns.iterator.models;
 
-public class DevStoreCatalog {
+import com.rommelrico.designpatterns.iterator.interfaces.*;
+
+public class DevStoreCatalog implements Catalog {
 
     private static final int MAX_ITEMS = 4;
     private int numberOfProducts = 0;
@@ -26,7 +28,7 @@ public class DevStoreCatalog {
         }
     }
 
-    DevStoreIterator createIterator() {
+    public DevStoreIterator createIterator() {
         return new DevStoreIterator(catalog);
     }
 
