@@ -1,7 +1,5 @@
 package com.rommelrico.designpatterns.iterator.models;
 
-import com.rommelrico.designpatterns.iterator.interfaces.*;
-
 import java.util.Iterator;
 
 public class DevStoreIterator implements Iterator {

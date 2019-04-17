@@ -1,7 +1,5 @@
 package com.rommelrico.designpatterns.iterator.models;
 
-import com.rommelrico.designpatterns.iterator.interfaces.Iterator;
-
 import java.util.*;
 
 public class GeekyStoreIterator implements Iterator {
@@ -25,4 +23,9 @@ public class GeekyStoreIterator implements Iterator {
         return product;
     }
 
+    @Override
+    public void remove() {
+        catalog.remove(position);
+        position = position - 1;
+    }
 }
