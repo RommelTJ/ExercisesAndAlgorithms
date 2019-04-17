@@ -1,5 +1,7 @@
 package com.rommelrico.designpatterns.iterator;
 
+import com.rommelrico.designpatterns.iterator.models.*;
+
 public class DevStoreCatalog {
 
     private static final int MAX_ITEMS = 4;
@@ -28,6 +30,10 @@ public class DevStoreCatalog {
 
     public Product[] getCatalog() {
         return this.catalog;
+    }
+
+    public DevStoreIterator createIterator() {
+        return new DevStoreIterator(catalog);
     }
 
 }
