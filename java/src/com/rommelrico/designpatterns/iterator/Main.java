@@ -1,33 +1,17 @@
 package com.rommelrico.designpatterns.iterator;
 
-import java.util.*;
+import com.rommelrico.designpatterns.iterator.models.*;
 
 public class Main {
 
     public static void main(String[] args) {
         DevStoreCatalog devStoreCatalog = new DevStoreCatalog();
-        Product[] devCatalog = devStoreCatalog.getCatalog();
-
         GeekyStoreCatalog geekyStoreCatalog = new GeekyStoreCatalog();
-        ArrayList geekyCatalog = geekyStoreCatalog.getCatalog();
 
-        // Loop through dev catalog - Array
-        for (int i = 0; i < devCatalog.length; i++) {
-            Product product = devCatalog[i];
-            System.out.print(product.getName() + " ");
-            System.out.print(product.getDescription() + " ");
-            System.out.println(product.getPrice() + " ");
-        }
-
+        Seller seller = new Seller(geekyStoreCatalog, devStoreCatalog);
+        seller.printGeekyCatalog();
         System.out.println("---");
-
-        // Loop through geeky catalog - ArrayList
-        for (int i = 0; i < geekyCatalog.size(); i++) {
-            Product product = (Product) geekyCatalog.get(i);
-            System.out.print(product.getName() + " ");
-            System.out.print(product.getDescription() + " ");
-            System.out.println(product.getPrice() + " ");
-        }
+        seller.printDevCatalog();
         
     }
 
