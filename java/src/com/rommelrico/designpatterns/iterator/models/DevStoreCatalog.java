@@ -1,6 +1,4 @@
-package com.rommelrico.designpatterns.iterator;
-
-import com.rommelrico.designpatterns.iterator.models.*;
+package com.rommelrico.designpatterns.iterator.models;
 
 public class DevStoreCatalog {
 

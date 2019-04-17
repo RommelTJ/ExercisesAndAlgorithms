@@ -1,7 +1,5 @@
 package com.rommelrico.designpatterns.iterator.models;
 
-import com.rommelrico.designpatterns.iterator.*;
-
 public class Seller {
 
     GeekyStoreCatalog geekyStoreCatalog;

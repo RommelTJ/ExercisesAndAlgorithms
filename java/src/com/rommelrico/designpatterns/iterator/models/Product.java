@@ -1,4 +1,4 @@
-package com.rommelrico.designpatterns.iterator;
+package com.rommelrico.designpatterns.iterator.models;
 
 public class Product {
 
