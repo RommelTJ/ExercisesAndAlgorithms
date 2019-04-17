@@ -2,8 +2,8 @@ package com.rommelrico.designpatterns.iterator.models;
 
 public class Seller {
 
-    GeekyStoreCatalog geekyStoreCatalog;
-    DevStoreCatalog devStoreCatalog;
+    private GeekyStoreCatalog geekyStoreCatalog;
+    private DevStoreCatalog devStoreCatalog;
 
     public Seller(GeekyStoreCatalog geekyStoreCatalog, DevStoreCatalog devStoreCatalog) {
         this.geekyStoreCatalog = geekyStoreCatalog;

@@ -8,7 +8,7 @@ public class DevStoreIterator implements Iterator {
     private int numberOfProducts = 0;
     private Product[] catalog;
 
-    public DevStoreIterator(Product[] catalog) {
+    DevStoreIterator(Product[] catalog) {
         this.catalog = catalog;
     }
 

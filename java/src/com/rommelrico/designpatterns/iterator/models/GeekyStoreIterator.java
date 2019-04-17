@@ -6,10 +6,10 @@ import java.util.*;
 
 public class GeekyStoreIterator implements Iterator {
 
-    ArrayList<Product> catalog;
-    int position = 0;
+    private ArrayList<Product> catalog;
+    private int position = 0;
 
-    public GeekyStoreIterator(ArrayList<Product> catalog) {
+    GeekyStoreIterator(ArrayList<Product> catalog) {
         this.catalog = catalog;
     }
 

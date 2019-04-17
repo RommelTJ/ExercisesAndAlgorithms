@@ -4,7 +4,7 @@ public class DevStoreCatalog {
 
     private static final int MAX_ITEMS = 4;
     private int numberOfProducts = 0;
-    Product[] catalog;
+    private Product[] catalog;
 
     public DevStoreCatalog() {
         this.catalog = new Product[MAX_ITEMS];
@@ -15,7 +15,7 @@ public class DevStoreCatalog {
         addItem("Web Development Cookbook", "Book", 80.99);
     }
 
-    public void addItem(String name, String description, double price) {
+    private void addItem(String name, String description, double price) {
         Product product = new Product(name, description, price);
 
         if (numberOfProducts >= MAX_ITEMS) {
@@ -26,11 +26,7 @@ public class DevStoreCatalog {
         }
     }
 
-    public Product[] getCatalog() {
-        return this.catalog;
-    }
-
-    public DevStoreIterator createIterator() {
+    DevStoreIterator createIterator() {
         return new DevStoreIterator(catalog);
     }
 

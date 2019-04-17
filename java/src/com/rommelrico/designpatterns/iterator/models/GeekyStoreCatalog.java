@@ -16,16 +16,12 @@ public class GeekyStoreCatalog {
         addItem("Jedi T-Shirt", "Gotta Have It", 29.99);
     }
 
-    public void addItem(String name, String description, double price) {
+    private void addItem(String name, String description, double price) {
         Product product = new Product(name, description, price);
         catalog.add(product);
     }
 
-    public ArrayList<Product> getCatalog() {
-        return catalog;
-    }
-
-    public GeekyStoreIterator createIterator() {
+    GeekyStoreIterator createIterator() {
         return new GeekyStoreIterator(catalog);
     }
 
