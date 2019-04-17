@@ -15,6 +15,10 @@ public class SodaMachine {
 
         if (count > 0) {
             state = NO_MONEY;
+
+            System.out.println("Welcome to our Soda Vending Machine");
+            System.out.println("Inventory is " + count + " Sodas");
+            System.out.println("Insert a dollar bill to get started...");
         }
     }
 
