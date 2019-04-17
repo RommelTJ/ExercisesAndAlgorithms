@@ -22,7 +22,7 @@ public class DevStoreCatalog {
             System.out.println("Catalog is full - can't add more products");
         } else {
             catalog[numberOfProducts] = product;
-            numberOfProducts = numberOfProducts++;
+            numberOfProducts = numberOfProducts + 1;
         }
     }
 
