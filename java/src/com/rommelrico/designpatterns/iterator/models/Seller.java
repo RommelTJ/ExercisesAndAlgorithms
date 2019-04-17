@@ -1,17 +1,21 @@
 package com.rommelrico.designpatterns.iterator.models;
 
+import com.rommelrico.designpatterns.iterator.interfaces.*;
+
+import java.util.Iterator;
+
 public class Seller {
 
-    private GeekyStoreCatalog geekyStoreCatalog;
-    private DevStoreCatalog devStoreCatalog;
+    private Catalog geekyStoreCatalog;
+    private Catalog devStoreCatalog;
 
-    public Seller(GeekyStoreCatalog geekyStoreCatalog, DevStoreCatalog devStoreCatalog) {
+    public Seller(Catalog geekyStoreCatalog, Catalog devStoreCatalog) {
         this.geekyStoreCatalog = geekyStoreCatalog;
         this.devStoreCatalog = devStoreCatalog;
     }
 
     public void printGeekyCatalog() {
-        GeekyStoreIterator iterator = geekyStoreCatalog.createIterator();
+        Iterator iterator = geekyStoreCatalog.createIterator();
         System.out.println("Printing geeky store catalog: ");
         while (iterator.hasNext()) {
             Product product = (Product) iterator.next();
@@ -22,7 +26,7 @@ public class Seller {
     }
 
     public void printDevCatalog() {
-        DevStoreIterator iterator = devStoreCatalog.createIterator();
+        Iterator iterator = devStoreCatalog.createIterator();
         System.out.println("Printing dev store catalog: ");
         while (iterator.hasNext()) {
             Product product = (Product) iterator.next();
