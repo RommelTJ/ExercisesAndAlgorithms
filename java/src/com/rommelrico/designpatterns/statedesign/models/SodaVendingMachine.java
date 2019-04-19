@@ -13,7 +13,7 @@ public class SodaVendingMachine {
     private int count = 0;
 
     public SodaVendingMachine(int count) {
-        soldOutState = new SoldOutState();
+        soldOutState = new SoldOutState(this);
         this.count = count;
     }
 }

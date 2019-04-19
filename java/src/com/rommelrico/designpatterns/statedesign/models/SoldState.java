@@ -4,6 +4,12 @@ import com.rommelrico.designpatterns.statedesign.interfaces.*;
 
 public class SoldState implements State {
 
+    private SodaVendingMachine sodaVendingMachine;
+
+    public SoldState(SodaVendingMachine sodaVendingMachine) {
+        this.sodaVendingMachine = sodaVendingMachine;
+    }
+
     @Override
     public void insertMoney() {
 
