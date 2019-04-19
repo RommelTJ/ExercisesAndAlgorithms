@@ -14,6 +14,14 @@ public class SodaVendingMachine {
 
     public SodaVendingMachine(int count) {
         soldOutState = new SoldOutState(this);
+        noMoneyState = new NoMoneyState(this);
+        hasMoneyState = new HasMoneyState(this);
+        soldState = new SoldState(this);
+
         this.count = count;
+
+        if (count > 0) {
+            state = noMoneyState;
+        }
     }
 }
