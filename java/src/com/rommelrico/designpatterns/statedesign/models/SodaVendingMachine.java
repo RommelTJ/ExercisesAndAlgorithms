@@ -24,4 +24,23 @@ public class SodaVendingMachine {
             state = noMoneyState;
         }
     }
+
+    // Actions
+
+    public void insertMoney() {
+        state.insertMoney();
+    }
+
+    public void ejectMoney() {
+        state.ejectMoney();
+    }
+
+    public void selectSoda() {
+        state.select();
+    }
+
+    private void dispense() {
+        state.dispense();
+    }
+
 }
