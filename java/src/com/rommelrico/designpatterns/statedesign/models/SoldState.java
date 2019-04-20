@@ -27,8 +27,9 @@ public class SoldState implements State {
 
     @Override
     public void dispense() {
-        System.out.println("Already sold");
+        System.out.println("Dispensing your soda.");
         if (sodaVendingMachine.getCount() > 0) {
+            sodaVendingMachine.setCount(sodaVendingMachine.getCount() - 1);
             sodaVendingMachine.setState(sodaVendingMachine.getNoMoneyState());
         } else {
             System.out.println("Sorry, out of sodas.");
