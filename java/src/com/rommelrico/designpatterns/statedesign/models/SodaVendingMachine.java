@@ -43,4 +43,32 @@ public class SodaVendingMachine {
         state.dispense();
     }
 
+    public int getCount() {
+        return count;
+    }
+
+    public State getState() {
+        return state;
+    }
+
+    public void setState(State state) {
+        this.state = state;
+    }
+
+    State getSoldOutState() {
+        return soldOutState;
+    }
+
+    State getNoMoneyState() {
+        return noMoneyState;
+    }
+
+    State getHasMoneyState() {
+        return hasMoneyState;
+    }
+
+    State getSoldState() {
+        return soldState;
+    }
+
 }

@@ -6,7 +6,7 @@ public class SoldState implements State {
 
     private SodaVendingMachine sodaVendingMachine;
 
-    public SoldState(SodaVendingMachine sodaVendingMachine) {
+    SoldState(SodaVendingMachine sodaVendingMachine) {
         this.sodaVendingMachine = sodaVendingMachine;
     }
 
