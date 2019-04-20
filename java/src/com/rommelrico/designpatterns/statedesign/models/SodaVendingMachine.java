@@ -39,12 +39,16 @@ public class SodaVendingMachine {
         state.select();
     }
 
-    private void dispense() {
+    public void dispense() {
         state.dispense();
     }
 
     public int getCount() {
         return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
     }
 
     public State getState() {
