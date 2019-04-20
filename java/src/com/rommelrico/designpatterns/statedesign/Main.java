@@ -5,24 +5,21 @@ import com.rommelrico.designpatterns.statedesign.models.*;
 public class Main {
 
     public static void main(String[] args) {
-        SodaMachine sodaMachine = new SodaMachine(3);
+        SodaVendingMachine sodaVendingMachine = new SodaVendingMachine(3);
+        sodaVendingMachine.insertMoney();
+        sodaVendingMachine.selectSoda();
+        sodaVendingMachine.dispense();
 
-        sodaMachine.insertMoney();
-        sodaMachine.selectSoda();
+        sodaVendingMachine.insertMoney();
+        sodaVendingMachine.selectSoda();
+        sodaVendingMachine.dispense();
+        sodaVendingMachine.insertMoney();
+        sodaVendingMachine.selectSoda();
+        sodaVendingMachine.dispense();
 
-        sodaMachine.insertMoney();
-        sodaMachine.ejectMoney();
-
-        sodaMachine.insertMoney();
-        sodaMachine.selectSoda();
-
-        sodaMachine.insertMoney();
-        sodaMachine.ejectMoney();
-
-        sodaMachine.selectSoda();
-        sodaMachine.insertMoney();
-        sodaMachine.selectSoda();
-        sodaMachine.insertMoney();
+        sodaVendingMachine.insertMoney();
+        sodaVendingMachine.selectSoda();
+        sodaVendingMachine.dispense();
     }
 
 }
