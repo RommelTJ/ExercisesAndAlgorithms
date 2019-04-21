@@ -9,16 +9,16 @@ public class DefaultPerson implements Person {
     private final String lastName;
 
     // Optional Parameters
-    protected String address;
-    protected int age;
-    protected String phoneNumber;
+    String address;
+    int age;
+    String phoneNumber;
 
-    public DefaultPerson(String firstName, String lastName) {
+    DefaultPerson(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
-    public DefaultPerson(PersonBuilder personBuilder) {
+    DefaultPerson(PersonBuilder personBuilder) {
         this(personBuilder.getFirstName(), personBuilder.getLastName());
         this.address = personBuilder.getAddress();
         this.age = personBuilder.getAge();
