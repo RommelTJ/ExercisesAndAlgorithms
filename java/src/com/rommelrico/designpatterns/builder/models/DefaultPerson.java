@@ -26,7 +26,7 @@ public class DefaultPerson implements Person {
     }
 
     // Inner Class
-    class PersonBuilder extends DefaultPerson {
+    public static class PersonBuilder extends DefaultPerson {
 
         public PersonBuilder(String firstName, String lastName) {
             super(firstName, lastName);
