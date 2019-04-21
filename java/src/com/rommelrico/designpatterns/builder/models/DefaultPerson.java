@@ -78,18 +78,6 @@ public class DefaultPerson implements Person {
         return phoneNumber;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
     @Override
     public String toString() {
         return "DefaultPerson{" +
