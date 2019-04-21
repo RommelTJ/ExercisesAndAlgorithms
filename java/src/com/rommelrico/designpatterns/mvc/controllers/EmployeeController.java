@@ -16,6 +16,7 @@ public class EmployeeController {
     public void setEmployeeName(String name, String lastName) {
         employee.setFirstName(name);
         employee.setLastName(lastName);
+        employeeDashboard.printEmployeeInformation();
     }
 
     public String getEmployeeName() {
@@ -24,6 +25,7 @@ public class EmployeeController {
 
     public void setSSN(String ssn) {
         employee.setSsn(ssn);
+        employeeDashboard.printEmployeeInformation();
     }
 
     public String getEmployeeSSN() {
