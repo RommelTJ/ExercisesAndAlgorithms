@@ -20,9 +20,9 @@ public class DefaultPerson implements Person {
 
     public DefaultPerson(PersonBuilder personBuilder) {
         this(personBuilder.getFirstName(), personBuilder.getLastName());
-        this.address = address;
-        this.age = age;
-        this.phoneNumber = phoneNumber;
+        this.address = personBuilder.getAddress();
+        this.age = personBuilder.getAge();
+        this.phoneNumber = personBuilder.getPhoneNumber();
     }
 
     // Inner Class
