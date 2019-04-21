@@ -1,5 +1,6 @@
 package com.rommelrico.designpatterns.builder;
 
+import com.rommelrico.designpatterns.builder.interfaces.*;
 import com.rommelrico.designpatterns.builder.models.*;
 
 public class Main {
@@ -12,5 +13,15 @@ public class Main {
                 .build();
 
         System.out.println(rommel);
+
+        System.out.println("----");
+
+        Person oldPerson = new DefaultPerson.PersonBuilder("Liza", "Rico")
+                .phoneNumber("222")
+                .address("222")
+                .age(30)
+                .build();
+        System.out.println(oldPerson);
+
     }
 }
