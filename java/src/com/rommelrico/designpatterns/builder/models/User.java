@@ -8,6 +8,14 @@ public class User {
     private final String phoneNumber;
     private final String address;
 
+    public User(UserBuilder userBuilder) {
+        this.firstName = userBuilder.firstName;
+        this.lastName = userBuilder.lastName;
+        this.age = userBuilder.age;
+        this.phoneNumber = userBuilder.phoneNumber;
+        this.address = userBuilder.address;
+    }
+
     public static class UserBuilder {
         private final String firstName; // required
         private final String lastName; // required
