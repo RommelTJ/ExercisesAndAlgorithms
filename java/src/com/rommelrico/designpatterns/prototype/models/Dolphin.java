@@ -17,4 +17,12 @@ public class Dolphin implements Prototype {
         return new Dolphin(name, age);
     }
 
+    @Override
+    public String toString() {
+        return "Dolphin{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
 }
