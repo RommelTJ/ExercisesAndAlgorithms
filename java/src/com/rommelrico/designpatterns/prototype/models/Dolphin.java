@@ -7,7 +7,7 @@ public class Dolphin implements Prototype {
     private String name;
     private int age;
 
-    Dolphin(String name, int age) {
+    public Dolphin(String name, int age) {
         this.name = name;
         this.age = age;
     }
