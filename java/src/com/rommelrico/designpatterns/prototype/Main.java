@@ -18,5 +18,13 @@ public class Main {
         Dolphin sam = (Dolphin) jerry.clone();
         sam.setName("Sam");
         System.out.println(sam);
+
+        System.out.println("----");
+
+        Person2 person2 = new Person2("James", 45);
+        System.out.println(person2);
+        Person2 person21 = (Person2) person2.clone();
+        person21.setName("Person 21");
+        System.out.println(person21);
     }
 }
