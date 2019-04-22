@@ -12,5 +12,11 @@ public class Main {
         liza.setName("Liza");
         liza.setAge(21);
         System.out.println(liza);
+
+        Dolphin jerry = new Dolphin("Jerry", 33);
+        System.out.println(jerry);
+        Dolphin sam = (Dolphin) jerry.clone();
+        sam.setName("Sam");
+        System.out.println(sam);
     }
 }
