@@ -13,7 +13,13 @@ public class Person2 implements Animal {
 
     @Override
     public Animal clone() {
-        return new Person2(name, age);
+        Person2 person = null;
+        try {
+            person = (Person2) super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return person;
     }
 
     public String getName() {
