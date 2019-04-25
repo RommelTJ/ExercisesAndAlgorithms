@@ -1,6 +1,9 @@
 package com.rommelrico.designpatterns.visitor.models;
 
-public class Jacket {
+import com.rommelrico.designpatterns.visitor.interfaces.*;
+
+public class Jacket implements Visitable {
+
     private double price;
 
     public Jacket(double price) {
@@ -14,4 +17,10 @@ public class Jacket {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    @Override
+    public double accept(Visitor visitor) {
+        return visitor.visitor(this);
+    }
+
 }
