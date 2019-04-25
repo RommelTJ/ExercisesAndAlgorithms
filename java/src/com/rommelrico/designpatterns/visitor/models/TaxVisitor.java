@@ -10,20 +10,23 @@ public class TaxVisitor implements Visitor {
 
     @Override
     public double visitor(Shirt shirt) {
-        System.out.println("Shirt final price with tax: ");
-        return Double.parseDouble(decimalFormat.format(shirt.getPrice() * 1.10));
+        Double price = Double.parseDouble(decimalFormat.format(shirt.getPrice() * 1.10));
+        System.out.println("Shirt final price with tax: " + price);
+        return price;
     }
 
     @Override
     public double visitor(TShirt tshirt) {
-        System.out.println("TShirt final price with tax: ");
-        return Double.parseDouble(decimalFormat.format(tshirt.getPrice() * 1.10));
+        Double price = Double.parseDouble(decimalFormat.format(tshirt.getPrice() * 1.10));
+        System.out.println("TShirt final price with tax: " + price);
+        return price;
     }
 
     @Override
     public double visitor(Jacket jacket) {
-        System.out.println("Jacket final price with tax: ");
-        return Double.parseDouble(decimalFormat.format(jacket.getPrice() * 1.10));
+        Double price = Double.parseDouble(decimalFormat.format(jacket.getPrice() * 1.10));
+        System.out.println("Jacket final price with tax: " + price);
+        return price;
     }
 
 }
