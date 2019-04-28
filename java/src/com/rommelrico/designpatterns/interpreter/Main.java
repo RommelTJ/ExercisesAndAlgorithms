@@ -25,7 +25,12 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        String first = "13 Binary";
+        String second = "28 Hexadecimal";
 
+        Main interpreter = new Main(new InterpreterContext());
+        System.out.println(first + " = " + interpreter.interpret(first));
+        System.out.println(second + " = " + interpreter.interpret(second));
     }
 
 
