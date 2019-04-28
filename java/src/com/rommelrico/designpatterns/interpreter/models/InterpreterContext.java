@@ -6,4 +6,8 @@ public class InterpreterContext {
         return Integer.toBinaryString(i);
     }
 
+    public String getHexFormat(int i) {
+        return Integer.toHexString(i);
+    }
+
 }
