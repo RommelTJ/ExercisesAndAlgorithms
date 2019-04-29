@@ -12,4 +12,12 @@ public abstract class Vehicle {
 
     abstract public void manufacture();
 
+    public Workshop getWorkshop() {
+        return workshop;
+    }
+
+    public Workshop getWorkshop2() {
+        return workshop2;
+    }
+
 }
