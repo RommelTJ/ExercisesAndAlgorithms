@@ -18,6 +18,12 @@ public abstract class PurchasePower {
         this.successor = successor;
     }
 
-    public void processRequest(PurchaseRequest request) {}
+    public void processRequest(PurchaseRequest request) {
+        if (request.getAmount() < this.getAllowable()) {
+            System.out.println(this.getRole() + " will approve request for $" + request.getAmount());
+        } else if (successor != null) {
+            successor.processRequest(request);
+        }
+    }
 
 }
