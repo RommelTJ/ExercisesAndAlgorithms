@@ -15,7 +15,7 @@ public class Circle implements Shape {
 
     @Override
     public void draw() {
-        System.out.println("Drawing a circle...");
+        System.out.println("Drawing circle: " + this.toString());
     }
 
     public String getColor() {
@@ -48,5 +48,15 @@ public class Circle implements Shape {
 
     public void setRadius(int radius) {
         this.radius = radius;
+    }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "color='" + color + '\'' +
+                ", x=" + x +
+                ", y=" + y +
+                ", radius=" + radius +
+                '}';
     }
 }
